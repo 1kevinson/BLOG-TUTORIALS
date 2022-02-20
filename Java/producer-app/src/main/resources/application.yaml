@@ -1,0 +1,16 @@
+# change application port
+server:
+  port: 8081
+
+
+# broker config
+spring:
+  activemq:
+    broker-url: tcp://localhost:616161
+    username: admin
+    password: admin
+    packages:
+      trust-all: true
+  artemis:
+    embedded:
+      queues: queue-data

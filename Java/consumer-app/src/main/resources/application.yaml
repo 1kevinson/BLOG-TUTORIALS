@@ -1,0 +1,3 @@
+# change application port
+server:
+  port: 8082
