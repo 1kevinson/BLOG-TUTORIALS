@@ -6,9 +6,9 @@ server:
 # broker config
 spring:
   activemq:
-    broker-url: tcp://localhost:616161
-    username: admin
-    password: admin
+    broker-url: tcp://localhost:61616
+    username: test
+    password: test
     packages:
       trust-all: true
   artemis:
