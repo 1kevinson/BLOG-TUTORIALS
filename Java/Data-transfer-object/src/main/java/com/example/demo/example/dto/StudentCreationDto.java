@@ -12,5 +12,4 @@ public class StudentCreationDto {
     private String password;
     private String schoolName;
     private String schoolAddress;
-
 }

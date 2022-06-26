@@ -30,13 +30,11 @@ public class StudentController {
     @ResponseBody
     public StudentViewDto saveStudent(@RequestBody StudentCreationDto studentCreationDto) {
         // Get the school by address in database => studentCreationDto.getSchoolAddress()
-        // Set the school ID with which retrieved in database
 
-        final Long schoolId = new Random().nextLong();
+        final Long schoolId = new Random().nextLong(); // <= Set the school ID with which retrieved in database
         final var studentToSave = StudentConverter.toEntity(studentCreationDto, schoolId);
         final var studentSaved = repository.save(studentToSave);
 
         return StudentConverter.toViewDto(studentSaved, studentSaved.getSchool());
     }
-
 }

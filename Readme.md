@@ -12,3 +12,5 @@
 [Simple Steps to Dockerize your Spring Boot Application](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/dockerize-springboot-application)
 
 [Unit Testing the Service Layer of Spring boot Application](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/testing-service-layer-springboot)
+
+[Data Transfer Object](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/Data-transfer-object)

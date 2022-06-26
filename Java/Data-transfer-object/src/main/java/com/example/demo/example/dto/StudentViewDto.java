@@ -10,5 +10,4 @@ public class StudentViewDto {
     private String name;
     private String email;
     private String schoolName;
-
 }

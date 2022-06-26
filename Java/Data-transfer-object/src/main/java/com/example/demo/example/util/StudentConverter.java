@@ -31,5 +31,4 @@ public class StudentConverter {
                 .school(schoolForStudent)
                 .build();
     }
-
 }
