@@ -1,7 +1,5 @@
 # Hi Friends, Welcome on this repository 😄
 
-<br>
-
 #### **Here you will find code snippets of my blog articles at** [1kevinson.com](https://1kevinson.com)
 
 <br>
