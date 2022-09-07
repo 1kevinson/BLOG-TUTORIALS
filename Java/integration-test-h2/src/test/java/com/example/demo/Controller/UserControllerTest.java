@@ -1,7 +1,6 @@
 package com.example.demo.Controller;
 
 import com.example.demo.Repository.UserRepository;
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.DisplayNameGenerator;
 import org.junit.jupiter.api.Test;
@@ -17,6 +16,7 @@ import java.io.File;
 import java.nio.file.Files;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.Matchers.aMapWithSize;
 import static org.hamcrest.Matchers.hasSize;
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.test.context.jdbc.Sql.ExecutionPhase.BEFORE_TEST_METHOD;
@@ -27,6 +27,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
+@SqlGroup({
+        @Sql(value = "classpath:empty/reset.sql", executionPhase = BEFORE_TEST_METHOD),
+        @Sql(value = "classpath:init/user-data.sql", executionPhase = BEFORE_TEST_METHOD)
+})
 class UserControllerTest {
 
     @Autowired
@@ -36,10 +40,6 @@ class UserControllerTest {
     private MockMvc mockMvc;
 
     @Test
-    @SqlGroup({
-            @Sql(value = "classpath:empty/reset.sql", executionPhase = BEFORE_TEST_METHOD),
-            @Sql(value = "classpath:init/user-data.sql", executionPhase = BEFORE_TEST_METHOD)
-    })
     void should_create_one_user() throws Exception {
         final File jsonFile = new ClassPathResource("init/user.json").getFile();
         final String userToCreate = Files.readString(jsonFile.toPath());
@@ -50,16 +50,12 @@ class UserControllerTest {
                 .andDo(print())
                 .andExpect(status().isCreated())
                 .andExpect(jsonPath("$").isMap())
-                .andExpect(jsonPath("$", Matchers.aMapWithSize(3)));
+                .andExpect(jsonPath("$", aMapWithSize(3)));
 
         assertThat(this.repository.findAll()).hasSize(6);
     }
 
     @Test
-    @SqlGroup({
-            @Sql(value = "classpath:empty/reset.sql", executionPhase = BEFORE_TEST_METHOD),
-            @Sql(value = "classpath:init/user-data.sql", executionPhase = BEFORE_TEST_METHOD)
-    })
     void should_retrieve_one_user() throws Exception {
         this.mockMvc.perform(get("/user/fetch/{id}", 3))
                 .andDo(print())
@@ -72,10 +68,6 @@ class UserControllerTest {
 
 
     @Test
-    @SqlGroup({
-            @Sql(value = "classpath:empty/reset.sql", executionPhase = BEFORE_TEST_METHOD),
-            @Sql(value = "classpath:init/user-data.sql", executionPhase = BEFORE_TEST_METHOD)
-    })
     void should_retrieve_all_users() throws Exception {
         this.mockMvc.perform(get("/user/fetchAll"))
                 .andDo(print())
@@ -91,10 +83,6 @@ class UserControllerTest {
     }
 
     @Test
-    @SqlGroup({
-            @Sql(value = "classpath:empty/reset.sql", executionPhase = BEFORE_TEST_METHOD),
-            @Sql(value = "classpath:init/user-data.sql", executionPhase = BEFORE_TEST_METHOD)
-    })
     void should_delete_one_user() throws Exception {
         this.mockMvc.perform(delete("/user/delete/{id}", 2))
                 .andDo(print())
