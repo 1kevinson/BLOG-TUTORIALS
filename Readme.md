@@ -1,4 +1,4 @@
-# Hi Friends, Welcome on this repository 😄
+# Hi Friends 😄
 
 #### **Here you will find code snippets of my blog articles at** [1kevinson.com](https://1kevinson.com)
 
@@ -43,6 +43,10 @@ ___
 <details>
   <summary>Software Design</summary>
 
++ [OOP Fundamentals](https://1kevinson.com/oop-core-principles-master-object-oriented-programming-basics/)
+
++ [Setters Are Evil](https://1kevinson.com/why-setters-are-evil-avoid-using-them/)
+
 + [Data Transfer Object](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/Data-transfer-object)
 
 + [The Law of Demeter](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/law-of-demeter/demeter-law)
@@ -66,6 +70,7 @@ ___
 
 + [Integration testing Springboot + Docker + Tests Containers](https://1kevinson.com/integration-testing-with-springboot-docker-and-tests-containers/)
 
++ [Integration testing H2 In-Memory Database and SpringBoot](https://1kevinson.com/how-to-write-integration-tests-with-h2-in-memory-database-and-springboot/)
 </details>
 <br>
 
