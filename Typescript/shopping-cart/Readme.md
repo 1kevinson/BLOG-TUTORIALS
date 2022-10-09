@@ -1,3 +1,3 @@
-### Link to the exercise
+### Link to the article
 
-<https://leetcode.com/problems/two-sum/>
+https://1kevinson.com/test-driven-development-for-the-rest-of-us/
