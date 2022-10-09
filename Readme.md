@@ -1,6 +1,6 @@
 # Hi Friends 😄
 
-#### **Here you will find code snippets of my blog articles at** [1kevinson.com](https://1kevinson.com)
+#### **Here you will find code snippets from my blog articles at** [1kevinson.com](https://1kevinson.com)
 
 <br>
 
@@ -71,6 +71,8 @@ ___
 + [Integration testing Springboot + Docker + Tests Containers](https://1kevinson.com/integration-testing-with-springboot-docker-and-tests-containers/)
 
 + [Integration testing H2 In-Memory Database and SpringBoot](https://1kevinson.com/how-to-write-integration-tests-with-h2-in-memory-database-and-springboot/)
+
++ [Test Driven Development: The Practical Guide with Typescript](https://1kevinson.com/test-driven-development-for-the-rest-of-us/)
 </details>
 <br>
 
@@ -94,5 +96,7 @@ ___
 + [The Psychology of Money - By Morgan Houssel](https://1kevinson.com/the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness/)
 
 + [Show your Work - By Austin Kleon](https://1kevinson.com/show-your-work/)
+
++ [The War Of Art - By Steven Pressfield](https://1kevinson.com/the-war-of-art/)
 
 </details>
