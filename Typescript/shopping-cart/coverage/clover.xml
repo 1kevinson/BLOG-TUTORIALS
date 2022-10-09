@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1665329718145" clover="3.2.0">
+  <project timestamp="1665329718145" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7" elements="27" coveredelements="27" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="/Users/1kevinson/Library/Mobile Documents/com~apple~CloudDocs/Files/00 - Blog/01 - Articles /TDD - The practical guide with typescript/04 - Code Demo/shopping-cart/src/index.ts">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
+      <line num="4" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="21" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="6" type="stmt"/>
+      <line num="27" count="4" type="stmt"/>
+      <line num="30" count="4" type="stmt"/>
+      <line num="32" count="5" type="stmt"/>
+    </file>
+  </project>
+</coverage>

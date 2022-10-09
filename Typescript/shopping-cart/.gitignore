@@ -1,0 +1,6 @@
+# DEPENDENCIES
+node_modules/
+
+# MISC
+.idea/
+.DS_Store
