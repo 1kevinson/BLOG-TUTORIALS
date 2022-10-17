@@ -14,7 +14,6 @@ public class Bill {
     private final int customerId;
     private final LocalDateTime dateTime;
     private final Menu menu;
-    private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 
     public Bill(Menu menu, List<String> selectedMenuItems, int customerId, LocalDateTime dateTime) {
         this.menu = menu;
@@ -25,18 +24,11 @@ public class Bill {
 
     BigDecimal finalAmount() {
         var selectedMenu = menu.selectedItems(selectedMenuItems);
-        return selectedMenu.values().stream().reduce(BigDecimal.ONE, BigDecimal::add);
+        return selectedMenu.values().stream().reduce(BigDecimal.ZERO, BigDecimal::add);
     }
 
     String commandDate() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         return dateTime.format(formatter);
-    }
-
-    void printBill() {
-        // Print the bill
-    }
-
-    void saveBill() {
-        // Save the bill in FileStore or Database Store
     }
 }
