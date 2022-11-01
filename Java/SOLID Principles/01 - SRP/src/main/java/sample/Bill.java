@@ -12,14 +12,12 @@ public class Bill {
 
     private final List<String> selectedMenuItems;
     private final int customerId;
-    private final LocalDateTime dateTime;
     private final Menu menu;
 
-    public Bill(Menu menu, List<String> selectedMenuItems, int customerId, LocalDateTime dateTime) {
-        this.menu = menu;
-        this.selectedMenuItems = selectedMenuItems;
+    public Bill(List<String> selectedItems, int customerId) {
+        menu = new Menu();
+        selectedMenuItems = selectedItems;
         this.customerId = customerId;
-        this.dateTime = dateTime;
     }
 
     BigDecimal finalAmount() {
@@ -29,6 +27,6 @@ public class Bill {
 
     String commandDate() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-        return dateTime.format(formatter);
+        return LocalDateTime.now().format(formatter);
     }
 }

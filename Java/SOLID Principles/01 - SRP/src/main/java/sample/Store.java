@@ -8,7 +8,11 @@ public class Store {
         this.bill = bill;
     }
 
-    void saveBill() {
-        // Save this.bill in FileStore or Database Store
+    void saveInFile() {
+        // Save this.bill in File
+    }
+
+    void saveInDatabase() {
+        // Save this.bill in Database
     }
 }

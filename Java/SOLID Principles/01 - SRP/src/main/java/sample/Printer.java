@@ -8,7 +8,11 @@ public class Printer {
         this.bill = bill;
     }
 
-    void printBill() {
-        // Print this.bill
+    void printInkjet() {
+        // Print this.bill with inkjet printer
+    }
+
+    void printLaser() {
+        // Print this.bill with laser printer
     }
 }
