@@ -2,17 +2,19 @@ package sample;
 
 public class Printer {
 
-    private final Bill bill;
+    private final LaserPrinter laserPrinter;
+    private final JetInkPrinter jetInkPrinter;
 
-    public Printer(Bill bill) {
-        this.bill = bill;
+    public Printer(LaserPrinter laserPrinter, JetInkPrinter jetInkPrinter) {
+        this.laserPrinter = laserPrinter;
+        this.jetInkPrinter = jetInkPrinter;
     }
 
-    void printInkjet() {
-        // Print this.bill with inkjet printer
+    void printInkjet(Bill bill) {
+        // Print bill with inkjet printer
     }
 
-    void printLaser() {
-        // Print this.bill with laser printer
+    void printLaser(Bill bill) {
+        // Print bill with laser printer
     }
 }
