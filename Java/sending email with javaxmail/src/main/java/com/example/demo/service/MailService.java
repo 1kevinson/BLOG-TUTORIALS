@@ -25,13 +25,7 @@ public class MailService {
     private final AppConfigs appConfigs;
 
     public void sendSimpleMail() {
-        Properties properties = new Properties();
-
-        properties.put("mail.smtp.host", appConfigs.getHost());
-        properties.put("mail.smtp.port", appConfigs.getPort());
-        properties.put("mail.user", appConfigs.getPort());
-        properties.put("mail.password", appConfigs.getPort());
-
+        Properties properties = getSmtpProperties();
         Session session = Session.getInstance(properties);
 
         try {
@@ -61,5 +55,16 @@ public class MailService {
         }catch (Exception exception) {
             System.out.println("Sending Email failed, error : " + exception.getMessage());
         }
+    }
+
+    private Properties getSmtpProperties() {
+        Properties properties = new Properties();
+
+        properties.put("mail.smtp.host", appConfigs.getHost());
+        properties.put("mail.smtp.port", appConfigs.getPort());
+        properties.put("mail.user", appConfigs.getPort());
+        properties.put("mail.password", appConfigs.getPort());
+
+        return properties;
     }
 }
