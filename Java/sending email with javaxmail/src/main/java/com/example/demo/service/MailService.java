@@ -25,7 +25,7 @@ public class MailService {
     private final AppConfigs appConfigs;
 
     public void sendSimpleMail() {
-        Properties properties = getSmtpProperties();
+        Properties properties = getProperties();
         Session session = Session.getInstance(properties);
 
         try {
@@ -57,7 +57,7 @@ public class MailService {
         }
     }
 
-    private Properties getSmtpProperties() {
+    private Properties getProperties() {
         Properties properties = new Properties();
 
         properties.put("mail.smtp.host", appConfigs.getHost());
