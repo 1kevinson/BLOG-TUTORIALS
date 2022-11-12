@@ -36,6 +36,8 @@ ___
 
 + [Typescript starter project](https://github.com/1kevinson/BLOG-TUTOS/tree/master/TS/starter-project)
 
++ [Sending email with Springboot and JavaxMail](https://github.com/1kevinson/BLOG-TUTORIALS/tree/master/Java/sending-email-with-javaxmail)
+
 </details>
 <br>
 
@@ -43,7 +45,7 @@ ___
 <details>
   <summary>Software Design</summary>
 
-+ [OOP Fundamentals](https://1kevinson.com/oop-core-principles-master-object-oriented-programming-basics/)
++ [OOP Core Principles](https://1kevinson.com/oop-core-principles-master-object-oriented-programming-basics/)
 
 + [Setters Are Evil](https://1kevinson.com/why-setters-are-evil-avoid-using-them/)
 
@@ -54,12 +56,19 @@ ___
 + [Command Query Separation](https://1kevinson.com/command-query-separation/)
 
 + [Guards](https://1kevinson.com/guards-clean-code/)
+
++ [YAGNI - You Aren't Gonna Need It](https://1kevinson.com/yagni-you-arent-gonna-need-it/)
+
++ [The Single responsibility Principle](https://1kevinson.com/single-responsibility-principle-java-example/)
+
++ [The Open Closed Principle](https://1kevinson.com/open-close-principle/)
 </details>
 <br>
 
 <details>
   <summary>Software Architecture</summary>
 
++ [Hexagonal Architecture - Implementing Port and Adapter with Java](https://1kevinson.com/how-to-implement-port-and-adapters-in-hexagonal-architecture-with-java/)
 </details>
 <br>
 
