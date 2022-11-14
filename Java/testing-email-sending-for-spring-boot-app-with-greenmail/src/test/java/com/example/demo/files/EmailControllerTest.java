@@ -39,8 +39,8 @@ class EmailControllerTest {
     void should_send_email_to_user() throws MessagingException, JSONException {
         // Arrange
         JSONObject emailJsonObject = new JSONObject();
-        emailJsonObject.put("email","tester@spring.com");
-        emailJsonObject.put("content","Hello this is a simple email message");
+        emailJsonObject.put("email", "tester@spring.com");
+        emailJsonObject.put("content", "Hello this is a simple email message");
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
@@ -48,7 +48,6 @@ class EmailControllerTest {
 
         // Act
         ResponseEntity<Void> response = testRestTemplate.postForEntity("/notify/user", emailRequest, Void.class);
-
 
         // Assert
         assertEquals(200, response.getStatusCodeValue());
