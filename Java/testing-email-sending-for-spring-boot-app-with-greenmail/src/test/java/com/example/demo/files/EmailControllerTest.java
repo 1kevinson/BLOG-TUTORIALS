@@ -60,8 +60,3 @@ class EmailControllerTest {
         assertEquals("Hello this is a simple email message", GreenMailUtil.getBody(receivedMessage));
     }
 }
-
-/* TODO: 13/11/2022
- *   1- List the meaning of all annotations in article
- *   2 - inspire by rieckpill article
- *   3- Article title ->  Sending Email with Spring Mail and Integration Testing with Green Mail */
