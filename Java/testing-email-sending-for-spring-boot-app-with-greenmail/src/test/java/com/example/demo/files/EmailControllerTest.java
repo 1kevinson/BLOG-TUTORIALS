@@ -4,6 +4,7 @@ import com.icegreen.greenmail.configuration.GreenMailConfiguration;
 import com.icegreen.greenmail.junit5.GreenMailExtension;
 import com.icegreen.greenmail.util.GreenMailUtil;
 import com.icegreen.greenmail.util.ServerSetupTest;
+import org.awaitility.Awaitility;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.jupiter.api.DisplayNameGeneration;
@@ -20,6 +21,8 @@ import org.springframework.http.ResponseEntity;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
+
+import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -52,11 +55,13 @@ class EmailControllerTest {
         // Assert
         assertEquals(200, response.getStatusCodeValue());
 
-        MimeMessage receivedMessage = greenMail.getReceivedMessages()[0];
-        assertEquals(1, receivedMessage.getAllRecipients().length);
-        assertEquals("tester@spring.com", receivedMessage.getAllRecipients()[0].toString());
-        assertEquals("test.sender@hotmail.com", receivedMessage.getFrom()[0].toString());
-        assertEquals("Message from Java Mail Sender", receivedMessage.getSubject());
-        assertEquals("Hello this is a simple email message", GreenMailUtil.getBody(receivedMessage));
+        Awaitility.await().atMost(2, TimeUnit.SECONDS).untilAsserted(()->{
+            MimeMessage receivedMessage = greenMail.getReceivedMessages()[0];
+            assertEquals(1, receivedMessage.getAllRecipients().length);
+            assertEquals("tester@spring.com", receivedMessage.getAllRecipients()[0].toString());
+            assertEquals("test.sender@hotmail.com", receivedMessage.getFrom()[0].toString());
+            assertEquals("Message from Java Mail Sender", receivedMessage.getSubject());
+            assertEquals("Hello this is a simple email message", GreenMailUtil.getBody(receivedMessage));
+        });
     }
 }
