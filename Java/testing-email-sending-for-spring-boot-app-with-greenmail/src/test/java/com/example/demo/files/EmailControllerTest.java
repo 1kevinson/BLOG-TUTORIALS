@@ -57,6 +57,7 @@ class EmailControllerTest {
 
         Awaitility.await().atMost(2, TimeUnit.SECONDS).untilAsserted(()->{
             MimeMessage receivedMessage = greenMail.getReceivedMessages()[0];
+
             assertEquals(1, receivedMessage.getAllRecipients().length);
             assertEquals("tester@spring.com", receivedMessage.getAllRecipients()[0].toString());
             assertEquals("test.sender@hotmail.com", receivedMessage.getFrom()[0].toString());
