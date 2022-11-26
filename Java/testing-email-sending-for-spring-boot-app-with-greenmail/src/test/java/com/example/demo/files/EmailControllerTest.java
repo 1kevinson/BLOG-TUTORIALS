@@ -7,6 +7,7 @@ import com.icegreen.greenmail.util.ServerSetupTest;
 import org.awaitility.Awaitility;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.DisplayNameGenerator;
 import org.junit.jupiter.api.Test;
@@ -19,15 +20,11 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
-import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
-
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class EmailControllerTest {
 
     @RegisterExtension
@@ -39,7 +36,7 @@ class EmailControllerTest {
     private TestRestTemplate testRestTemplate;
 
     @Test
-    void should_send_email_to_user() throws MessagingException, JSONException {
+    void should_send_email_to_user_with_green_mail_extension() throws JSONException {
         // Arrange
         JSONObject emailJsonObject = new JSONObject();
         emailJsonObject.put("email", "tester@spring.com");
@@ -53,16 +50,17 @@ class EmailControllerTest {
         ResponseEntity<Void> response = testRestTemplate.postForEntity("/notify/user", emailRequest, Void.class);
 
         // Assert
-        assertEquals(200, response.getStatusCodeValue());
+        Assertions.assertEquals(200, response.getStatusCodeValue());
 
         Awaitility.await().atMost(2, TimeUnit.SECONDS).untilAsserted(()->{
             MimeMessage receivedMessage = greenMail.getReceivedMessages()[0];
 
-            assertEquals(1, receivedMessage.getAllRecipients().length);
-            assertEquals("tester@spring.com", receivedMessage.getAllRecipients()[0].toString());
-            assertEquals("test.sender@hotmail.com", receivedMessage.getFrom()[0].toString());
-            assertEquals("Message from Java Mail Sender", receivedMessage.getSubject());
-            assertEquals("Hello this is a simple email message", GreenMailUtil.getBody(receivedMessage));
+            Assertions.assertEquals(1, receivedMessage.getAllRecipients().length);
+            Assertions.assertEquals("tester@spring.com", receivedMessage.getAllRecipients()[0].toString());
+            Assertions.assertEquals("test.sender@hotmail.com", receivedMessage.getFrom()[0].toString());
+            Assertions.assertEquals("Message from Java Mail Sender", receivedMessage.getSubject());
+            Assertions.assertEquals("Hello this is a simple email message", GreenMailUtil.getBody(receivedMessage));
         });
     }
+
 }
