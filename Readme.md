@@ -38,6 +38,8 @@ ___
 
 + [Sending email with Springboot and JavaxMail](https://github.com/1kevinson/BLOG-TUTORIALS/tree/master/Java/sending-email-with-javaxmail)
 
++ [Email Sending with Spring Mail and Integration Testing with Junit and GreenMail](https://1kevinson.com/email-sending-with-spring-mail-and-integration-testing-with-junit-and-greenmail/)
+
 </details>
 <br>
 
@@ -49,9 +51,9 @@ ___
 
 + [Setters Are Evil](https://1kevinson.com/why-setters-are-evil-avoid-using-them/)
 
-+ [Data Transfer Object](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/Data-transfer-object)
++ [Data Transfer Object](https://1kevinson.com/data-transfer-object/)
 
-+ [The Law of Demeter](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/law-of-demeter/demeter-law)
++ [The Law of Demeter](https://1kevinson.com/the-law-of-demeter/)
 
 + [Command Query Separation](https://1kevinson.com/command-query-separation/)
 
@@ -75,7 +77,7 @@ ___
 <details>
   <summary>Testing</summary>
 
-+ [Unit Testing the Service Layer of Spring boot Application](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/testing-service-layer-springboot)
++ [Unit Testing the Service Layer of Spring boot Application](https://1kevinson.com/testing-service-spring-boot/)
 
 + [Integration testing Springboot + Docker + Tests Containers](https://1kevinson.com/integration-testing-with-springboot-docker-and-tests-containers/)
 
