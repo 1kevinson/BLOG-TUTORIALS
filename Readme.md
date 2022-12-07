@@ -24,7 +24,7 @@ ___
 <details>
   <summary>Career</summary>
   
-  + [Write a Brag Document and Get Your Work Recognized](https://1kevinson.com/write-a-brag-document-and-get-your-work-recognized/)
++ [Write a Brag Document and Get Your Work Recognized](https://1kevinson.com/write-a-brag-document-and-get-your-work-recognized/)
 
 </details>
 <br>
