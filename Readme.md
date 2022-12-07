@@ -32,15 +32,17 @@ ___
 <details>
   <summary>Tutorials</summary>
 
-+ [Simple Steps to Dockerize your Spring Boot Application](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/dockerize-springboot-application)
++ [How to Run a Springboot App in a Docker Container](https://1kevinson.com/dockerize-springboot-app/)
 
-+ [JMS Messagging with ActiveMQ and Springboot](https://github.com/1kevinson/BLOG-TUTOS/tree/master/Java/spring-boot-et-activemq)
++ [JMS Messagging with ActiveMQ and Springboot](https://1kevinson.com/springboot-artemis-broker/)
 
-+ [Typescript starter project](https://github.com/1kevinson/BLOG-TUTOS/tree/master/TS/starter-project)
++ [Typescript starter project](https://1kevinson.com/typescript-starter-project/)
 
-+ [Sending email with Springboot and JavaxMail](https://github.com/1kevinson/BLOG-TUTORIALS/tree/master/Java/sending-email-with-javaxmail)
++ [How to send emails with Java Mail Springboot and MailHog](https://1kevinson.com/how-to-send-emails-with-java-mail-and-springboot/)
 
 + [Email Sending with Spring Mail and Integration Testing with Junit and GreenMail](https://1kevinson.com/email-sending-with-spring-mail-and-integration-testing-with-junit-and-greenmail/)
+
++ [How to change a Git remote URL](https://1kevinson.com/how-to-change-a-git-remote-url/)
 
 </details>
 <br>
