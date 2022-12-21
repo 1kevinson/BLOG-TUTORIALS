@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController("/products")
+@RestController
+@RequestMapping("/products")
 @RequiredArgsConstructor
 public class ProductController {
 
@@ -41,6 +42,5 @@ public class ProductController {
     public void deleteAllProducts() {
         service.deleteAllProducts();
     }
-
 
 }
