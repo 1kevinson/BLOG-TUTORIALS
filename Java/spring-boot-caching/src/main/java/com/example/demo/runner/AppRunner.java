@@ -17,7 +17,7 @@ public class AppRunner implements CommandLineRunner {
     public void run(String... args) {
         int numberOfProducts = NUMBER_OF_PRODUCTS;
         while (numberOfProducts > 0) {
-            productRepository.save(new Product("Product" + numberOfProducts, 10 + numberOfProducts));
+            productRepository.save(new Product("Product " + numberOfProducts, 10 + numberOfProducts));
             numberOfProducts--;
         }
     }
