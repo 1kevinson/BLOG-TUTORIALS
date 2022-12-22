@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 public class AppRunner implements CommandLineRunner {
 
-    private static final int NUMBER_OF_PRODUCTS = 50;
+    private static final int NUMBER_OF_PRODUCTS = 25;
     private final ProductRepository productRepository;
 
     @Override
