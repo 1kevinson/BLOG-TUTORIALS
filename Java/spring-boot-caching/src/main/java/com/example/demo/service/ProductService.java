@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.model.Product;
+import com.example.demo.entity.Product;
 import com.example.demo.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cache.annotation.CacheEvict;
