@@ -32,13 +32,13 @@ public class ProductController {
     }
 
     @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteOneProduct(@PathVariable("id") int id) {
         service.deleteOneProduct(id);
     }
 
     @DeleteMapping()
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteAllProducts() {
         service.deleteAllProducts();
     }
