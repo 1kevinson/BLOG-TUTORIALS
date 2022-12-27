@@ -1,8 +1,4 @@
-# Hi Friends 😄
-
-#### **Here you will find code snippets from my blog articles at** [1kevinson.com](https://1kevinson.com)
-
-<br>
+## Here you will find link to my articles
 
 ### 🎯 Sections
 ___
@@ -44,7 +40,7 @@ ___
 
 + [How to change a Git remote URL](https://1kevinson.com/how-to-change-a-git-remote-url/)
 
-+ [How to Implement Caching with Spring Boot](https://1kevinson.com/how-to-implement-caching-with-spring-boot/)
++ [Implementing Caching with Spring Boot](https://1kevinson.com/implementing-caching-with-spring-boot/)
 
 </details>
 <br>
