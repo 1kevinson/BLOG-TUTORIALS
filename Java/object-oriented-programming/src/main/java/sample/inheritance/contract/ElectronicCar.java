@@ -1,5 +1,8 @@
 package sample.inheritance.contract;
 
+import lombok.Getter;
+
+@Getter
 public abstract class ElectronicCar {
 
     // Every car share those common properties
