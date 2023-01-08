@@ -1,6 +1,6 @@
-package sample.main;
+package sample.abstraction.main;
 
-import sample.config.PrinterOptions;
+import sample.abstraction.config.PrinterOptions;
 
 public class PrinterMachine {
 

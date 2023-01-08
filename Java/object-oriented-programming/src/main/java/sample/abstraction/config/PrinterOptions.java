@@ -1,24 +1,26 @@
-package sample.config;
+package sample.abstraction.config;
+
+import lombok.Builder;
 
 // Options for the printer mechanism
+@Builder
 public class PrinterOptions {
 
     private int pages = 1;
-    private BlackAndWhite colorChoice;
+    private Color colorChoice;
     private PaperSize paperSize;
     private Orientation orientation;
 
-    enum PaperSize {
+    public enum PaperSize {
         A5, A4, A3, A2, A1
     }
 
-    enum Orientation {
+    public enum Orientation {
         PORTRAIT, LANDSCAPE
     }
 
-    enum BlackAndWhite {
-        TRUE,FALSE
+    public enum Color {
+        BLACK_AND_WHITE, COLORED
     }
-
 }
 
