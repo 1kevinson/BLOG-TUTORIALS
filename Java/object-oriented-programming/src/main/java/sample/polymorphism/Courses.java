@@ -14,8 +14,16 @@ public class Courses {
     }
 
     private static void giveCourse(Teacher teacher, List<Student> students) {
+        // ...
         // Teacher have to plan courses
+        teacher.planningLesson();
+
         // Speak to students (actually teaching)
+        teacher.speak();
+
         // answer some questions
+        teacher.answerQuestion(students);
+
+        // ...
     }
 }

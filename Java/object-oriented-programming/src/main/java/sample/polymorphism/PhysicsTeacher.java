@@ -1,5 +1,7 @@
 package sample.polymorphism;
 
+import java.util.List;
+
 public class PhysicsTeacher implements Teacher {
 
     public void speak() {
@@ -10,7 +12,7 @@ public class PhysicsTeacher implements Teacher {
         // ... Implement uniquely to physics class
     }
 
-    public void answerQuestion() {
+    public void answerQuestion(List<Student> students) {
         // ... Implement uniquely to physics class
     }
 }
