@@ -38,9 +38,9 @@ ___
 
 + [Email Sending with Spring Mail and Integration Testing with Junit and GreenMail](https://1kevinson.com/email-sending-with-spring-mail-and-integration-testing-with-junit-and-greenmail/)
 
-+ [How to change a Git remote URL](https://1kevinson.com/how-to-change-a-git-remote-url/)
-
 + [Implementing Caching with Spring Boot](https://1kevinson.com/implementing-caching-with-spring-boot/)
+
++ [How to center a Div, Text and HTML element with CSS](https://1kevinson.com/how-to-center-a-div-text-html-element-with-css/)
 
 </details>
 <br>
@@ -49,7 +49,7 @@ ___
 <details>
   <summary>Software Design</summary>
 
-+ [OOP Core Principles](https://1kevinson.com/oop-core-principles-master-object-oriented-programming-basics/)
++ [4 pillars of Object-Oriented Programming](https://1kevinson.com/4-pillars-of-object-oriented-programming/)
 
 + [Setters Are Evil](https://1kevinson.com/why-setters-are-evil-avoid-using-them/)
 
