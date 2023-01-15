@@ -32,7 +32,7 @@ public class ProductService {
         return repository.save(productToSave);
     }
 
-    public Product findById(int id) {
+    public Product findById(long id) {
         return repository.findById(id).orElseThrow(EntityNotFoundException::new);
     }
 
@@ -40,18 +40,18 @@ public class ProductService {
         return repository.findAll();
     }
 
-    public void updateOne(int id, ProductModel product) {
+    public void updateOne(long id, ProductModel product) {
         if (repository.findById(id).isEmpty()) throw new EntityNotFoundException();
         repository.updateById(product.getDescription(), product.getCategory().toString(), product.getPrice(), id);
     }
 
-    public Product patchOne(int id, JsonPatch patch) {
+    public Product patchOne(long id, JsonPatch patch) {
         var product = repository.findById(id).orElseThrow(EntityNotFoundException::new);
         var productPatched = applyPatchToProduct(patch, product);
         return repository.save(productPatched);
     }
 
-    public void deleteById(int id) {
+    public void deleteById(long id) {
         repository.deleteById(id);
     }
 

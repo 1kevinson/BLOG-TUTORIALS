@@ -1,16 +1,19 @@
 package com.example.demo.entity;
 
 import com.example.demo.enums.ProductCategory;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
-import java.math.BigDecimal;
 
 @Getter
 @Setter
 @Entity
 @Builder
+@AllArgsConstructor
 @Table(name = "product")
 public class Product extends BaseEntity {
 
@@ -30,5 +33,5 @@ public class Product extends BaseEntity {
 
     @Min(0)
     @Column(name = "price")
-    private BigDecimal price;
+    private int price;
 }
