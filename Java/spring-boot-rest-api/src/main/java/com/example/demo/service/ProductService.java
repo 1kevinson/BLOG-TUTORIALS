@@ -1,7 +1,13 @@
 package com.example.demo.service;
 
+import com.example.demo.domain.ProductModel;
 import com.example.demo.entity.Product;
 import com.example.demo.repository.ProductRepository;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.fge.jsonpatch.JsonPatch;
+import com.github.fge.jsonpatch.JsonPatchException;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityNotFoundException;
@@ -16,24 +22,52 @@ public class ProductService {
         this.repository = repository;
     }
 
-    public List<Product> getAllProducts() {
-        return repository.findAll();
+    public Product create(ProductModel product) {
+        var productToSave = Product.builder()
+                .description(product.getDescription())
+                .category(product.getCategory())
+                .price(product.getPrice())
+                .build();
+
+        return repository.save(productToSave);
     }
 
-    public Product getProductById(long id) {
+    public Product findById(int id) {
         return repository.findById(id).orElseThrow(EntityNotFoundException::new);
     }
 
-    public Product updateOneProduct(Product product) {
-        return repository.save(product);
+    public List<Product> findAll() {
+        return repository.findAll();
     }
 
-    public void deleteOneProduct(long id) {
+    public void updateOne(int id, ProductModel product) {
+        if (repository.findById(id).isEmpty()) throw new EntityNotFoundException();
+        repository.updateById(product.getDescription(), product.getCategory().toString(), product.getPrice(), id);
+    }
+
+    public Product patchOne(int id, JsonPatch patch) {
+        var product = repository.findById(id).orElseThrow(EntityNotFoundException::new);
+        var productPatched = applyPatchToProduct(patch, product);
+        return repository.save(productPatched);
+    }
+
+    public void deleteById(int id) {
         repository.deleteById(id);
     }
 
-    public void deleteAllProducts() {
+    public void deleteAll() {
         repository.deleteAll();
     }
+
+    private Product applyPatchToProduct(JsonPatch patch, Product product) {
+        try {
+            var objectMapper = new ObjectMapper();
+            JsonNode patched = patch.apply(objectMapper.convertValue(product, JsonNode.class));
+            return objectMapper.treeToValue(patched, Product.class);
+        } catch (JsonPatchException | JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
 }
