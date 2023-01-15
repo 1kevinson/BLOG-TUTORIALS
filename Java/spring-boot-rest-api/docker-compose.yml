@@ -7,7 +7,7 @@ services:
     container_name: spring-rest-api
     restart: always
     ports:
-      - '8080:8080'
+      - '8000:8000'
     depends_on:
       - postgres-db
   postgres-db:

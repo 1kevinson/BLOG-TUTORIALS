@@ -8,6 +8,8 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import java.math.BigDecimal;
 
 @Getter
 @Setter
@@ -17,21 +19,23 @@ import javax.validation.constraints.Min;
 @Table(name = "product")
 public class Product extends BaseEntity {
 
-    public Product() {}
+    public Product() {
+    }
 
     @Id
     @Column(nullable = false)
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
 
-    @Column(name = "category",nullable = false, columnDefinition = "field could be null, default 'UNKNOWN'")
     @Enumerated(EnumType.STRING)
+    @Column(name = "category", nullable = false)
+    @NotNull(message = "Category must be specified.")
     private ProductCategory category;
 
     @Column(name = "description")
     private String description;
 
     @Min(0)
-    @Column(name = "price")
-    private int price;
+    @Column(name = "price", columnDefinition = "decimal (10,2)")
+    private BigDecimal price;
 }

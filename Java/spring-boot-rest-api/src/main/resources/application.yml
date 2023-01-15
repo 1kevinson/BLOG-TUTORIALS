@@ -3,7 +3,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://postgres-db:5432/productdb
     username: postgres
-    password: something
+    password: motdepasse
   jpa:
     hibernate:
       ddl-auto: create-drop
@@ -15,4 +15,4 @@ logging:
     org.hibernate: info
 
 server:
-  port: 8080
+  port: 8000
