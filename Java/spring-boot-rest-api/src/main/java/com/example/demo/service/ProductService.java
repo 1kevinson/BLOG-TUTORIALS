@@ -11,6 +11,7 @@ import com.github.fge.jsonpatch.JsonPatchException;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityNotFoundException;
+import java.util.Comparator;
 import java.util.List;
 
 @Service
@@ -37,7 +38,7 @@ public class ProductService {
     }
 
     public List<Product> findAll() {
-        return repository.findAll();
+        return repository.findAll().stream().sorted(Comparator.comparing(Product::getId)).toList();
     }
 
     public void updateOne(long id, ProductModel product) {
