@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.domain.ProductModel;
+import com.example.demo.payload.ProductModel;
 import com.example.demo.entity.Product;
 import com.example.demo.service.ProductService;
 import com.github.fge.jsonpatch.JsonPatch;
@@ -20,7 +20,7 @@ public class ProductController {
         this.service = service;
     }
 
-    @PostMapping("/")
+    @PostMapping()
     public ResponseEntity<Product> createProduct(@RequestBody ProductModel product) {
         return new ResponseEntity<>(service.create(product), HttpStatus.CREATED);
     }
@@ -30,7 +30,7 @@ public class ProductController {
         return new ResponseEntity<>(service.findById(id), HttpStatus.OK);
     }
 
-    @GetMapping("/all")
+    @GetMapping()
     public ResponseEntity<List<Product>> getAllProducts() {
         return new ResponseEntity<>(service.findAll(), HttpStatus.OK);
     }
@@ -57,5 +57,4 @@ public class ProductController {
     public void deleteAllProducts() {
         service.deleteAll();
     }
-
 }

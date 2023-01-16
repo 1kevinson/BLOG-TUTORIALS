@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.domain.ProductModel;
+import com.example.demo.payload.ProductModel;
 import com.example.demo.entity.Product;
 import com.example.demo.repository.ProductRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -69,6 +69,4 @@ public class ProductService {
             throw new RuntimeException(e);
         }
     }
-
-
 }

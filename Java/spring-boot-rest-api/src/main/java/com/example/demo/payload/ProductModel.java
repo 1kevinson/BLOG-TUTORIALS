@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package com.example.demo.payload;
 
 import com.example.demo.enums.ProductCategory;
 import lombok.Getter;
