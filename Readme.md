@@ -46,6 +46,8 @@ ___
 
 + [How to Create a Postgres Database in Docker](https://1kevinson.com/how-to-create-a-postgres-database-in-docker/)
 
++ [How to add Total in last row of SQL](https://1kevinson.com/how-to-add-total-in-last-row-of-sql-sum/)
+
 
 </details>
 <br>
