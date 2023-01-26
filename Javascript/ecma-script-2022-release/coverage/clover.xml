@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674756011292" clover="3.2.0">
-  <project timestamp="1674756011292" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1674757130115" clover="3.2.0">
+  <project timestamp="1674757130115" name="All files">
+    <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1" elements="11" coveredelements="11" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="/Users/1kevinson/Library/Mobile Documents/com~apple~CloudDocs/Files/00 - Blog/02 - Coding/02 - GitHub Blog Repository/Javascript/ecma-script-2022-release/src/index.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="3" type="cond" truecount="3" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>

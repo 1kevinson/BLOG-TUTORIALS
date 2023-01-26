@@ -1,4 +1,4 @@
-import getLanguage from '../src/index';
+const getLanguage = require('../src/index');
 
 describe('TEST JEST TYPESCRIPT', () => {
   test('should returns JAVA for answer = java', () => {
