@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: spring.dockerfile
+    container_name: spring-sql
+    restart: always
+    ports:
+      - '8000:8000'
+    depends_on:
+      - sql-db
+  sql-db:
+    build:
+      context: .
+      dockerfile: mysql.dockerfile
+    image: "mysql_tutorial"
+    container_name: mysql-8
+    restart: unless-stopped
