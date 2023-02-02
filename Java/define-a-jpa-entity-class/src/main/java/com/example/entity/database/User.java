@@ -19,4 +19,13 @@ public class User extends BaseEntityAudit {
 
     @Column(name = "email")
     private String email;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                '}' +
+                super.toString();
+    }
 }
