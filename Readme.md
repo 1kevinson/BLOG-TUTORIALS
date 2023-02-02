@@ -48,6 +48,7 @@ ___
 
 + [How to add Total in last row of SQL](https://1kevinson.com/how-to-add-total-in-last-row-of-sql-sum/)
 
++ [Create a Base Entity with JPA](https://1kevinson.com/create-a-base-entity-with-jpa/)
 
 </details>
 <br>
