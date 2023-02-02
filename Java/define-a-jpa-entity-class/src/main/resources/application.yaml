@@ -1,21 +1,24 @@
+server:
+  port: 8080
+
 spring:
+  application:
+    name: jpaEntity
+
   datasource:
-    url: jdbc:mysql://localhost:3306/demodb
+    url: jdbc:mysql://localhost:3306/demodb?allowPublicKeyRetrieval=true&useSSL=false
     username: dbuser
     password: dbpass
     hikari:
       driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
       ddl-auto: create-drop
     show-sql: true
+    generate-ddl: true
+    defer-datasource-initialization: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: true
-logging:
-  level:
-    org.springframework: info
-    org.hibernate: info
-server:
-  port: 8000

@@ -2,6 +2,8 @@ docker stop spring-sql mysql-8 &&
 
 docker rm spring-sql mysql-8 &&
 
+docker volume prune -f &&
+
 ./mvnw clean package -DskipTests &&
 
 docker compose build --no-cache &&

@@ -4,16 +4,19 @@ import com.example.entity.common.BaseEntityAudit;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
 @Getter
 @Setter
-@Table(name = "user")
+@Table(name = "users")
 public class User extends BaseEntityAudit {
 
-    private String login;
-    private String email;
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "email")
+    private String email;
 }

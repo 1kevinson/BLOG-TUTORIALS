@@ -7,7 +7,7 @@ services:
     container_name: spring-sql
     restart: always
     ports:
-      - '8000:8000'
+      - '8081:8081'
     depends_on:
       - sql-db
   sql-db:
@@ -17,3 +17,9 @@ services:
     image: "mysql_tutorial"
     container_name: mysql-8
     restart: unless-stopped
+    ports:
+      - '3306:3306'
+    volumes:
+      - db:/var/lib/mysql
+volumes:
+  db:
