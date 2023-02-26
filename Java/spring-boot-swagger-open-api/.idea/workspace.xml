@@ -4,87 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5647ebba-b207-4815-9e31-a4e00a0845b8" name="Changes" comment="added open api dependency">
-      <change beforePath="$PROJECT_DIR$/../Data-transfer-object/.mvn/wrapper/.maven-wrapper.jar.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data-transfer-object/.mvn/wrapper/.maven-wrapper.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data-transfer-object/.mvnw.cmd.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data-transfer-object/src/main/resources/.application.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dockerize-springboot-application/.docker-compose.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dockerize-springboot-application/.mvn/wrapper/.maven-wrapper.jar.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dockerize-springboot-application/.mvn/wrapper/.maven-wrapper.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dockerize-springboot-application/.mvnw.cmd.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dockerize-springboot-application/src/main/resources/.application.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../integration-test-h2/.mvn/wrapper/.maven-wrapper.jar.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../integration-test-h2/.mvn/wrapper/.maven-wrapper.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../integration-test-h2/.mvnw.cmd.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../integration-test-h2/src/main/resources/.application.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../integration-test-h2/src/test/resources/.application-test.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../integration-test-h2/src/test/resources/empty/.reset.sql.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../integration-test-h2/src/test/resources/init/.user-data.sql.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../law-of-demeter/demeter-law/.demeter-law.iml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../law-of-demeter/demeter-law/target/classes/com/lod/app/.App.class.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../law-of-demeter/demeter-law/target/classes/com/lod/app/models/.Address.class.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../law-of-demeter/demeter-law/target/classes/com/lod/app/models/.Employee.class.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../law-of-demeter/demeter-law/target/classes/com/lod/app/models/.Enterprise.class.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../law-of-demeter/demeter-law/target/test-classes/com/lod/app/.AppTest.class.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sending-email-with-javaxmail/.mvn/wrapper/.maven-wrapper.jar.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sending-email-with-javaxmail/.mvn/wrapper/.maven-wrapper.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sending-email-with-javaxmail/.mvnw.cmd.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../single-responsibility-principle/target/classes/sample/.Application.class.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../single-responsibility-principle/target/classes/sample/.Bill.class.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../single-responsibility-principle/target/classes/sample/.Menu.class.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../single-responsibility-principle/target/classes/sample/.Restaurant.class.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-et-activemq/consumer-app/.mvn/wrapper/.maven-wrapper.jar.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-et-activemq/consumer-app/.mvn/wrapper/.maven-wrapper.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-et-activemq/consumer-app/.mvnw.cmd.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-et-activemq/consumer-app/src/main/resources/.application.yaml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-et-activemq/producer-app/.mvn/wrapper/.maven-wrapper.jar.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-et-activemq/producer-app/.mvn/wrapper/.maven-wrapper.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-et-activemq/producer-app/.mvnw.cmd.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-boot-et-activemq/producer-app/src/main/resources/.application.yaml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/enums/ProductCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/payload/ProductModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testcontainers/.mvn/wrapper/.maven-wrapper.jar.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testcontainers/.mvn/wrapper/.maven-wrapper.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testcontainers/.mvnw.cmd.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testcontainers/src/docker/.docker-compose.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testcontainers/src/main/resources/.application.yaml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testcontainers/src/test/resources/.application-test.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testing-service-layer-springboot/.mvn/wrapper/.maven-wrapper.jar.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testing-service-layer-springboot/.mvn/wrapper/.maven-wrapper.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testing-service-layer-springboot/.mvnw.cmd.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testing-service-layer-springboot/src/main/resources/.application.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/.Readme.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/.babel.config.cjs.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/.yarn.lock.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/coverage/.lcov.info.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/coverage/lcov-report/.base.css.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/coverage/lcov-report/.index.html.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/coverage/lcov-report/.index.ts.html.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/coverage/lcov-report/.prettify.css.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/customs/.anonymous.ts.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/dist/customs/.anonymous.js.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/dist/src/.Cart.js.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/dist/src/.index.js.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/shopping-cart/dist/tests/.index.spec.js.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/starter-project/.yarn.lock.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/starter-project/dist/src/.index.js.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Typescript/starter-project/dist/tests/.index.spec.js.map.icloud" beforeDir="false" />
-    </list>
+    <list default="true" id="5647ebba-b207-4815-9e31-a4e00a0845b8" name="Changes" comment="added open api dependency" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,32 +35,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/1kevinson/Library/Mobile Documents/com~apple~CloudDocs/Files/00 - Blog/02 - Coding/02 - GitHub Blog Repository/Java/spring-boot-swagger-open-api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/1kevinson/Library/Mobile Documents/com~apple~CloudDocs/Files/00 - Blog/02 - Coding/02 - GitHub Blog Repository/Java/spring-boot-swagger-open-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fe01ce2a7fbac8fafaed7c982a04e229&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo" />
