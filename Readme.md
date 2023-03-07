@@ -50,6 +50,8 @@ ___
 
 + [Create a Base Entity with JPA](https://1kevinson.com/create-a-base-entity-with-jpa/)
 
++ [Document a Springboot Rest API with Swagger and Open API](https://1kevinson.com/document-a-springbootrest-api-with-swagger-and-open-api/)
+
 </details>
 <br>
 
