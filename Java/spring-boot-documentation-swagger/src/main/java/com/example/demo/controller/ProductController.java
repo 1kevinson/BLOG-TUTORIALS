@@ -28,12 +28,12 @@ public class ProductController {
 
     @Operation(summary = "Create a new product")
     @ApiResponses({
-            @ApiResponse(responseCode = "201", content = {
-                    @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
-            }, description = "Creation OK"),
-            @ApiResponse(responseCode = "500", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
-            }, description = "Internal server error")
+        @ApiResponse(responseCode = "201", content = {
+                @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
+        }, description = "Creation OK"),
+        @ApiResponse(responseCode = "500", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
+        }, description = "Internal server error")
     })
     @PostMapping()
     public ResponseEntity<Product> createProduct(@RequestBody ProductModel product) {
@@ -42,15 +42,15 @@ public class ProductController {
 
     @Operation(summary = "Retrieve one product")
     @ApiResponses({
-            @ApiResponse(responseCode = "201", content = {
-                    @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
-            }, description = "Creation OK"),
-            @ApiResponse(responseCode = "404", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json"),
-            }, description = "Product not found"),
-            @ApiResponse(responseCode = "500", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
-            }, description = "Internal server error")
+        @ApiResponse(responseCode = "201", content = {
+                @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
+        }, description = "Creation OK"),
+        @ApiResponse(responseCode = "404", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json"),
+        }, description = "Product not found"),
+        @ApiResponse(responseCode = "500", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
+        }, description = "Internal server error")
     })
     @GetMapping("/{id}")
     public ResponseEntity<Product> getOneProduct(@PathVariable("id") int id) {
@@ -59,12 +59,12 @@ public class ProductController {
 
     @Operation(summary = "Retrieve all products")
     @ApiResponses({
-            @ApiResponse(responseCode = "200", content = {
-                    @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
-            }, description = "OK"),
-            @ApiResponse(responseCode = "500", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
-            }, description = "Internal server error")
+        @ApiResponse(responseCode = "200", content = {
+                @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
+        }, description = "OK"),
+        @ApiResponse(responseCode = "500", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
+        }, description = "Internal server error")
     })
     @GetMapping()
     public ResponseEntity<List<Product>> getAllProducts() {
@@ -73,15 +73,15 @@ public class ProductController {
 
     @Operation(summary = "Update a product")
     @ApiResponses({
-            @ApiResponse(responseCode = "200", content = {
-                    @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
-            }, description = "Update OK"),
-            @ApiResponse(responseCode = "404", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json"),
-            }, description = "Product doesn't exist"),
-            @ApiResponse(responseCode = "500", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
-            }, description = "Internal server error")
+        @ApiResponse(responseCode = "200", content = {
+                @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
+        }, description = "Update OK"),
+        @ApiResponse(responseCode = "404", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json"),
+        }, description = "Product doesn't exist"),
+        @ApiResponse(responseCode = "500", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
+        }, description = "Internal server error")
     })
     @PutMapping("/update/{id}")
     @ResponseStatus(HttpStatus.OK)
@@ -91,15 +91,15 @@ public class ProductController {
 
     @Operation(summary = "Update partially a product")
     @ApiResponses({
-            @ApiResponse(responseCode = "201", content = {
-                    @Content(schema = @Schema(implementation = JsonPatch.class), mediaType = "application/json"),
-            }, description = "Patch OK"),
-            @ApiResponse(responseCode = "404", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json"),
-            }, description = "Product doesn't exist"),
-            @ApiResponse(responseCode = "500", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
-            }, description = "Internal server error")
+        @ApiResponse(responseCode = "201", content = {
+                @Content(schema = @Schema(implementation = JsonPatch.class), mediaType = "application/json"),
+        }, description = "Patch OK"),
+        @ApiResponse(responseCode = "404", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json"),
+        }, description = "Product doesn't exist"),
+        @ApiResponse(responseCode = "500", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
+        }, description = "Internal server error")
     })
     @PatchMapping(value = "/update/{id}", consumes = "application/json-patch+json")
     public ResponseEntity<Product> patchOneProduct(@PathVariable("id") int id, @RequestBody JsonPatch patch) {
@@ -108,15 +108,15 @@ public class ProductController {
 
     @Operation(summary = "Delete a product")
     @ApiResponses({
-            @ApiResponse(responseCode = "206", content = {
-                    @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
-            }, description = "Delete OK"),
-            @ApiResponse(responseCode = "404", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json"),
-            }, description = "Product doesn't exist"),
-            @ApiResponse(responseCode = "500", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
-            }, description = "Internal server error")
+        @ApiResponse(responseCode = "206", content = {
+                @Content(schema = @Schema(implementation = Product.class), mediaType = "application/json"),
+        }, description = "Delete OK"),
+        @ApiResponse(responseCode = "404", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json"),
+        }, description = "Product doesn't exist"),
+        @ApiResponse(responseCode = "500", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
+        }, description = "Internal server error")
     })
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.PARTIAL_CONTENT)
@@ -126,11 +126,11 @@ public class ProductController {
 
     @Operation(summary = "Delete all products")
     @ApiResponses({
-            @ApiResponse(responseCode = "205", content = {
-                    @Content(schema = @Schema())}, description = "Delete all OK"),
-            @ApiResponse(responseCode = "500", content = {
-                    @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
-            }, description = "Internal server error")
+        @ApiResponse(responseCode = "205", content = {
+                @Content(schema = @Schema())}, description = "Delete all OK"),
+        @ApiResponse(responseCode = "500", content = {
+                @Content(schema = @Schema(implementation = ErrorResponse.class), mediaType = "application/json")
+        }, description = "Internal server error")
     })
     @DeleteMapping()
     @ResponseStatus(HttpStatus.RESET_CONTENT)
