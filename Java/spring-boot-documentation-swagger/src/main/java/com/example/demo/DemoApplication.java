@@ -43,7 +43,7 @@ public class DemoApplication {
 				.title("Product Manager API")
 				.contact(contact)
 				.version("1.0")
-				.description("This API exposes endpoints to manage products.")
+				.description("This API exposes endpoints to manage products. ")
 				.license(mitLicense);
 
 		return new OpenAPI()

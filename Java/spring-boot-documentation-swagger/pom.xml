@@ -9,13 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>swagger-document</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>swagger-document</name>
 	<description>Demo project for blog post</description>
 	<properties>
 		<java.version>17</java.version>
-		<testcontainers.version>1.16.2</testcontainers.version>
 	</properties>
 	<dependencies>
 		<dependency>
