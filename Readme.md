@@ -73,9 +73,7 @@ ___
 
 + [YAGNI - You Aren't Gonna Need It](https://1kevinson.com/yagni-you-arent-gonna-need-it/)
 
-+ [The Single responsibility Principle](https://1kevinson.com/single-responsibility-principle-java-example/)
-
-+ [The Open Closed Principle](https://1kevinson.com/open-close-principle/)
++ [SOLID Principles - Timeless Wisdom on Building High-Quality Software](https://1kevinson.com/solid-principles-timeless-wisdom-on-building-high-quality-software/)
 </details>
 <br>
 
