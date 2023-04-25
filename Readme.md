@@ -52,6 +52,8 @@ ___
 
 + [Document a Springboot Rest API with Swagger and Open API](https://1kevinson.com/document-a-springbootrest-api-with-swagger-and-open-api/)
 
++ [How to Declare Variables in JavaScript](https://1kevinson.com/how-to-declare-variable-in-javascript/)
+
 </details>
 <br>
 
