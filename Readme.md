@@ -54,6 +54,8 @@ ___
 
 + [How to Declare Variables in JavaScript](https://1kevinson.com/how-to-declare-variable-in-javascript/)
 
++ [How to Dockerize Your React Application](https://1kevinson.com/how-to-dockerize-your-react-application/)
+
 </details>
 <br>
 
@@ -76,6 +78,7 @@ ___
 + [YAGNI - You Aren't Gonna Need It](https://1kevinson.com/yagni-you-arent-gonna-need-it/)
 
 + [SOLID Principles - Timeless Wisdom on Building High-Quality Software](https://1kevinson.com/solid-principles-timeless-wisdom-on-building-high-quality-software/)
+
 </details>
 <br>
 
@@ -83,6 +86,7 @@ ___
   <summary>Software Architecture</summary>
 
 + [Hexagonal Architecture - Implementing Port and Adapter with Java](https://1kevinson.com/how-to-implement-port-and-adapters-in-hexagonal-architecture-with-java/)
+
 </details>
 <br>
 
@@ -96,11 +100,18 @@ ___
 + [Integration testing H2 In-Memory Database and SpringBoot](https://1kevinson.com/how-to-write-integration-tests-with-h2-in-memory-database-and-springboot/)
 
 + [Test Driven Development: The Practical Guide with Typescript](https://1kevinson.com/test-driven-development-for-the-rest-of-us/)
+
 </details>
 <br>
 
 <details>
   <summary>Linux</summary>
+
++ [How to use if-else in Shell Scripts](https://1kevinson.com/how-to-use-if-else-in-shell-scripts/)
+
++ [How to clean a Zombie Process on Linux](https://1kevinson.com/how-to-clean-a-zombie-process-on-linux/)
+
++ [Linux Directory Structure Explained](https://1kevinson.com/linux-directory-structure-explained/)
 
 </details>
 <br>
