@@ -2,6 +2,7 @@ package com.example.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.zip.DataFormatException;
 import java.util.zip.Deflater;
 import java.util.zip.Inflater;
 
@@ -27,19 +28,18 @@ public class ImageUtils {
         return outputStream.toByteArray();
     }
 
-    public static byte[] decompressImage(byte[] data) {
+    public static byte[] decompressImage(byte[] data) throws DataFormatException, IOException {
         Inflater inflater = new Inflater();
         inflater.setInput(data);
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream(data.length);
         byte[] tmp = new byte[BITE_SIZE];
-        try {
-            while (!inflater.finished()) {
-                int count = inflater.inflate(tmp);
-                outputStream.write(tmp, 0, count);
-            }
-            outputStream.close();
-        } catch (Exception ignored) {
+
+        while (!inflater.finished()) {
+            int count = inflater.inflate(tmp);
+            outputStream.write(tmp, 0, count);
         }
+
+        outputStream.close();
         return outputStream.toByteArray();
     }
 }
