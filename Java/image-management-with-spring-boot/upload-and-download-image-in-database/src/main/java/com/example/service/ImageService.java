@@ -30,8 +30,8 @@ public class ImageService {
     }
 
     public byte[] downloadImage(String imageName) {
-        Optional<Image> dbImageData = imageRepository.findByName(imageName);
-        return dbImageData.map(image -> {
+        Optional<Image> dbImage = imageRepository.findByName(imageName);
+        return dbImage.map(image -> {
             try {
                 return ImageUtils.decompressImage(image.getImageData());
             } catch (DataFormatException | IOException exception) {
