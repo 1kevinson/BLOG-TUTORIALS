@@ -51,6 +51,9 @@ public class JPAImageRepositoryTest extends BaseIntegrationTest {
 
         // Act & Assert
         Optional<Image> imageDownloaded = imageRepository.findByName(nameOfImageToDownload);
+        assertThat(imageDownloaded).isPresent()
+                .map(Image::getId)
+                .get().isEqualTo(2L);
         assertThat(imageDownloaded)
                 .isPresent()
                 .get()
