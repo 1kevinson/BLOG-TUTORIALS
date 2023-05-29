@@ -19,4 +19,5 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @TestPropertySource(locations = "classpath:application-prod.yml")
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_CLASS)
 public class BaseE2E extends TestContainers {
+
 }
