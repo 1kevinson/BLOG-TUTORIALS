@@ -59,8 +59,8 @@ public class ImageServiceTest {
         }
     }
 
-    @SneakyThrows
     @Test
+    @SneakyThrows
     public void should_download_image() {
         try (MockedStatic<ImageUtils> mockedImageUtils = mockStatic(ImageUtils.class)) {
             // Arrange
