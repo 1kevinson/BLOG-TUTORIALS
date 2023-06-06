@@ -12,8 +12,6 @@ spring:
 
 logging:
   level:
-    net.ttddyy.dsproxy.listener: DEBUG
-    org.springframework: DEBUG
     org.hibernate:
       SQL: DEBUG
       type.descriptor.sql.BasicBinder: TRACE

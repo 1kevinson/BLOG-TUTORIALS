@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import static org.springframework.http.MediaType.IMAGE_PNG_VALUE;
@@ -21,8 +22,9 @@ public class ImageController {
 
     @PostMapping
     public ResponseEntity<?> uploadImage(@RequestParam("image") MultipartFile file) throws IOException {
+        if (file.isEmpty()) throw new FileNotFoundException("You should provide a valid file");
         String uploadImage = imageService.uploadImage(file);
-        return ResponseEntity.status(HttpStatus.OK).body(uploadImage);
+        return ResponseEntity.status(HttpStatus.CREATED).body(uploadImage);
     }
 
     @GetMapping("/{fileName}")
