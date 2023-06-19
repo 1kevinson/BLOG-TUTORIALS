@@ -39,11 +39,12 @@ public class ImageServiceTest {
     @Test
     @SneakyThrows
     public void should_upload_image() {
+        // Arrange
+        Image imageUploaded = new Image();
+        MultipartFile imageFile = new MockMultipartFile("file", "test-image.png", IMAGE_PNG_VALUE, new byte[BITE_SIZE]);
+        when(imageRepository.save(any(Image.class))).thenReturn(imageUploaded);
+
         try (MockedStatic<ImageUtils> mockedImageUtils = mockStatic(ImageUtils.class)) {
-            // Arrange
-            Image imageUploaded = new Image();
-            MultipartFile imageFile = new MockMultipartFile("file", "test-image.png", IMAGE_PNG_VALUE, new byte[BITE_SIZE]);
-            when(imageRepository.save(any(Image.class))).thenReturn(imageUploaded);
             mockedImageUtils.when(() -> ImageUtils.compressImage(isA(byte[].class))).thenReturn(isA(byte[].class));
 
             // Act
@@ -54,21 +55,22 @@ public class ImageServiceTest {
             assertThat(expected).isEqualTo(actual);
             mockedImageUtils.verify(() -> ImageUtils.compressImage(isA(byte[].class)), times(1));
             mockedImageUtils.verifyNoMoreInteractions();
-            verify(imageRepository, times(1)).save(any(Image.class));
-            verifyNoMoreInteractions(imageRepository);
         }
+
+        verify(imageRepository, times(1)).save(any(Image.class));
+        verifyNoMoreInteractions(imageRepository);
     }
 
     @Test
     @SneakyThrows
     public void should_download_image() {
-        try (MockedStatic<ImageUtils> mockedImageUtils = mockStatic(ImageUtils.class)) {
-            // Arrange
-            var imageData = new byte[BITE_SIZE];
-            String imageName = "random-img.png";
-            Image imageEntity = Image.builder().imageData(imageData).name(imageName).id(2L).build();
-            Optional<Image> imageInDatabase = Optional.of(imageEntity);
+        // Arrange
+        var imageData = new byte[BITE_SIZE];
+        String imageName = "random-img.png";
+        Image imageEntity = Image.builder().imageData(imageData).name(imageName).id(2L).build();
+        Optional<Image> imageInDatabase = Optional.of(imageEntity);
 
+        try (MockedStatic<ImageUtils> mockedImageUtils = mockStatic(ImageUtils.class)) {
             when(imageRepository.findByName(anyString())).thenReturn(imageInDatabase);
             mockedImageUtils.when(() -> ImageUtils.decompressImage(isA(byte[].class))).thenReturn(imageData);
 
@@ -79,8 +81,9 @@ public class ImageServiceTest {
             assertArrayEquals(imageData, actual);
             mockedImageUtils.verify(() -> ImageUtils.decompressImage(isA(byte[].class)), times(1));
             mockedImageUtils.verifyNoMoreInteractions();
-            verify(imageRepository, times(1)).findByName(anyString());
-            verifyNoMoreInteractions(imageRepository);
         }
+
+        verify(imageRepository, times(1)).findByName(anyString());
+        verifyNoMoreInteractions(imageRepository);
     }
 }
