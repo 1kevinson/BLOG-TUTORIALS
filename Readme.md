@@ -9,7 +9,7 @@ ___
 + [Software Design](https://1kevinson.com/tag/software-design/)
 + [Testing](https://1kevinson.com/tag/testing/)
 + [Linux](https://1kevinson.com/tag/linux/)
-+ [CI-CD](https://1kevinson.com/tag/ci-cd/)
++ [DevOps](https://1kevinson.com/tag/devops/)
 + [Bookclub](https://1kevinson.com/tag/books/)
 
 <br>
@@ -121,7 +121,7 @@ ___
 <br>
 
 <details>
-  <summary>CI-CD</summary>
+  <summary>DevOps</summary>
 
 </details>
 <br>
