@@ -69,16 +69,6 @@ ___
 
 + [Setters Are Evil](https://1kevinson.com/why-setters-are-evil-avoid-using-them/)
 
-+ [Data Transfer Object](https://1kevinson.com/data-transfer-object/)
-
-+ [The Law of Demeter](https://1kevinson.com/the-law-of-demeter/)
-
-+ [Command Query Separation](https://1kevinson.com/command-query-separation/)
-
-+ [Guards](https://1kevinson.com/guards-clean-code/)
-
-+ [YAGNI - You Aren't Gonna Need It](https://1kevinson.com/yagni-you-arent-gonna-need-it/)
-
 + [SOLID Principles - Timeless Wisdom on Building High-Quality Software](https://1kevinson.com/solid-principles-timeless-wisdom-on-building-high-quality-software/)
 
 </details>
