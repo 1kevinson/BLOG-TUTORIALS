@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    # Create the database 'tutos' manually
+    url: jdbc:postgresql://localhost:5432/tutos
+    username: tuto
+    password: admingres
+  jpa:
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+        hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+logging:
+  level:
+    org.springframework: warn
+    org.hibernate.type: trace
+
+server:
+  port: 8000

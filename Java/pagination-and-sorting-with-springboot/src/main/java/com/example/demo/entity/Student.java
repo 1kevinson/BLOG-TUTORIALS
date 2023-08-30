@@ -1,11 +1,12 @@
 package com.example.demo.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.UUID;
 
 @Entity
 @Getter
@@ -15,11 +16,11 @@ import javax.persistence.Id;
 public class Student {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(unique = true, nullable = false, updatable = false)
+    private UUID id;
     private String name;
     private int age;
-    private String gender;
     private String address;
 
 }
