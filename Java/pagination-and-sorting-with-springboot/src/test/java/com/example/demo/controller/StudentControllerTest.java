@@ -1,6 +1,5 @@
 package com.example.demo.controller;
 
-import com.example.demo.repository.StudentRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,10 +24,6 @@ public class StudentControllerTest extends TestContainers {
 
     @Autowired
     private MockMvc mockMvc;
-
-    @Autowired
-    private StudentRepository repository;
-
 
     @Test
     @DisplayName("Should retrieve all students with default parameters")
