@@ -28,48 +28,51 @@ ___
 <details>
   <summary>Tutorials</summary>
 
-+ [How to Run a Springboot App in a Docker Container](https://1kevinson.com/dockerize-springboot-app/)
++ [How to Build Pagination and Sorting with Spring Boot and JPA](https://1kevinson.com/how-to-build-pagination-and-sorting-with-spring-boot-and-jpa/)
 
-+ [JMS Messagging with ActiveMQ and Springboot](https://1kevinson.com/springboot-artemis-broker/)
++ [Understand How Spring Boot Architecture is Designed](https://1kevinson.com/understand-how-spring-boot-architecture-is-designed/)
 
-+ [Typescript starter project](https://1kevinson.com/typescript-starter-project/)
++ [What is caching? Understand How Cache Memory works](https://1kevinson.com/what-is-caching-understand-how-cache-memory-works/)
 
-+ [How to send emails with Java Mail Springboot and MailHog](https://1kevinson.com/how-to-send-emails-with-java-mail-and-springboot/)
++ [2 Simple Ways to Sort List of Weekdays from Monday to Sunday with Java](https://1kevinson.com/2-simple-ways-to-sort-list-of-weekdays-from-monday-to-sunday-with-java/)
 
-+ [Email Sending with Spring Mail and Integration Testing with Junit and GreenMail](https://1kevinson.com/email-sending-with-spring-mail-and-integration-testing-with-junit-and-greenmail/)
-
-+ [Implementing Caching with Spring Boot](https://1kevinson.com/implementing-caching-with-spring-boot/)
-
-+ [How to center a Div, Text and HTML element with CSS](https://1kevinson.com/how-to-center-a-div-text-html-element-with-css/)
-
-+ [How to Build a Rest API with Spring Boot and PostgreSQL](https://1kevinson.com/how-to-build-rest-api-with-spring-boot-and-postgresql/)
-
-+ [How to Create a Postgres Database in Docker](https://1kevinson.com/how-to-create-a-postgres-database-in-docker/)
-
-+ [How to add Total in last row of SQL](https://1kevinson.com/how-to-add-total-in-last-row-of-sql-sum/)
-
-+ [Create a Base Entity with JPA](https://1kevinson.com/create-a-base-entity-with-jpa/)
-
-+ [Document a Springboot Rest API with Swagger and Open API](https://1kevinson.com/document-a-springbootrest-api-with-swagger-and-open-api/)
-
-+ [How to Declare Variables in JavaScript](https://1kevinson.com/how-to-declare-variable-in-javascript/)
-
-+ [How to Dockerize Your React Application](https://1kevinson.com/how-to-dockerize-your-react-application/)
++ [How to Set a Custom GitHub Code Font](https://1kevinson.com/how-to-set-a-custom-github-code-font/)
 
 + [Upload and Download Image into SQL Database with Spring Boot](https://1kevinson.com/upload-and-download-image-into-sql-database-with-spring-boot/)
 
-</details>
-<br>
++ [How to Dockerize Your React Application](https://1kevinson.com/how-to-dockerize-your-react-application/)
 
++ [How to Declare Variables in JavaScript](https://1kevinson.com/how-to-declare-variable-in-javascript/)
 
-<details>
-  <summary>Software Design</summary>
++ [How to Change the Context Path in Spring Boot](https://1kevinson.com/how-to-change-the-context-path-in-spring-boot/)
 
-+ [4 pillars of Object-Oriented Programming](https://1kevinson.com/4-pillars-of-object-oriented-programming/)
++ [Document a Springboot Rest API with Swagger and Open API](https://1kevinson.com/document-a-springbootrest-api-with-swagger-and-open-api/)
 
-+ [Setters Are Evil](https://1kevinson.com/why-setters-are-evil-avoid-using-them/)
++ [Why using UUID instead of IDs in your Java Project](https://1kevinson.com/why-using-uuid-instead-of-ids-in-your-java-project/)
 
-+ [SOLID Principles - Timeless Wisdom on Building High-Quality Software](https://1kevinson.com/solid-principles-timeless-wisdom-on-building-high-quality-software/)
++ [Create a Base Entity with JPA](https://1kevinson.com/create-a-base-entity-with-jpa/)
+
++ [How to add Total in last row of SQL](https://1kevinson.com/how-to-add-total-in-last-row-of-sql-sum/)
+
++ [Upload and Download Image into SQL Database with Spring Boot](https://1kevinson.com/upload-and-download-image-into-sql-database-with-spring-boot/)
+
++ [How to Create a Postgres Database in Docker](https://1kevinson.com/how-to-create-a-postgres-database-in-docker/)
+
++ [How to Build a Rest API with Spring Boot and PostgreSQL](https://1kevinson.com/how-to-build-rest-api-with-spring-boot-and-postgresql/)
+
++ [How to center a Div, Text and HTML element with CSS](https://1kevinson.com/how-to-center-a-div-text-html-element-with-css/)
+
++ [Implementing Caching with Spring Boot](https://1kevinson.com/implementing-caching-with-spring-boot/)
+
++ [Email Sending with Spring Mail and Integration Testing with Junit and GreenMail](https://1kevinson.com/email-sending-with-spring-mail-and-integration-testing-with-junit-and-greenmail/)
+
++ [How to send emails with Java Mail Springboot and Testing with MailHog](https://1kevinson.com/how-to-send-emails-with-java-mail-and-springboot/)
+
++ [How to Run a Springboot App in a Docker Container](https://1kevinson.com/dockerize-springboot-app/)
+
++ [Spring Boot and Apache ActiveMQ - JMS Messaging](https://1kevinson.com/springboot-artemis-broker/)
+
++ [Setup a starter project with Typescript and Unit Tests with Jest](https://1kevinson.com/typescript-starter-project/)
 
 </details>
 <br>
@@ -83,17 +86,30 @@ ___
 <br>
 
 <details>
+  <summary>Software Design</summary>
+
++ [SOLID Principles](https://1kevinson.com/solid-principles-timeless-wisdom-on-building-high-quality-software/)
+
++ [4 pillars of Object-Oriented Programming](https://1kevinson.com/4-pillars-of-object-oriented-programming/)
+
++ [Setters Are Evil: Avoid Using Them](https://1kevinson.com/why-setters-are-evil-avoid-using-them/)
+
+</details>
+<br>
+
+<details>
   <summary>Testing</summary>
 
-+ [Unit Testing the Service Layer of Spring boot Application](https://1kevinson.com/testing-service-spring-boot/)
-
-+ [Integration testing Springboot + Docker + Tests Containers](https://1kevinson.com/integration-testing-with-springboot-docker-and-tests-containers/)
-
-+ [Integration testing H2 In-Memory Database and SpringBoot](https://1kevinson.com/how-to-write-integration-tests-with-h2-in-memory-database-and-springboot/)
++ [Unit and Integration Testing Made Easy on Image Management for SQL Database with Spring Boot](https://1kevinson.com/unit-and-integration-testing-made-easy-on-image-management-for-sql-database-with-spring-boot/)
 
 + [Test Driven Development: The Practical Guide with Typescript](https://1kevinson.com/test-driven-development-for-the-rest-of-us/)
 
-+ [Unit and Integration Testing Made Easy on Image Management for SQL Database with Spring Boot](https://1kevinson.com/unit-and-integration-testing-made-easy-on-image-management-for-sql-database-with-spring-boot/)
++ [How to Write Integration Tests with H2 In-Memory Database and Springboot](https://1kevinson.com/how-to-write-integration-tests-with-h2-in-memory-database-and-springboot/)
+
++ [Unit Testing the Service Layer of Spring boot Application](https://1kevinson.com/testing-service-spring-boot/)
+
++ [How to write Integration Tests with Testcontainers Springboot and Docker](https://1kevinson.com/integration-testing-with-springboot-docker-and-tests-containers/)
+
 
 </details>
 <br>
@@ -101,11 +117,13 @@ ___
 <details>
   <summary>Linux</summary>
 
-+ [How to use if-else in Shell Scripts](https://1kevinson.com/how-to-use-if-else-in-shell-scripts/)
++ [How to Find and Replace Text with Sed Command on Linux](https://1kevinson.com/how-to-find-and-replace-text-with-sed-command-on-linux/)
+
++ [Linux Directory Structure Explained](https://1kevinson.com/linux-directory-structure-explained/)
 
 + [How to clean a Zombie Process on Linux](https://1kevinson.com/how-to-clean-a-zombie-process-on-linux/)
 
-+ [Linux Directory Structure Explained](https://1kevinson.com/linux-directory-structure-explained/)
++ [How to use if-else in Shell Scripts](https://1kevinson.com/how-to-use-if-else-in-shell-scripts/)
 
 </details>
 <br>
@@ -119,12 +137,14 @@ ___
 <details>
   <summary>Bookclub</summary>
 
++ [Mastery - By Georges Leonard](https://1kevinson.com/mastery-book-highlights-george-leonard/)
+
++ [The War Of Art - By Steven Pressfield](https://1kevinson.com/the-war-of-art/)
+
 + [So Good They Can Ignore - By Cal Newport](https://1kevinson.com/so-good-they-can-ignore-you-cal-newport-commento/)
 
 + [The Psychology of Money - By Morgan Houssel](https://1kevinson.com/the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness/)
 
 + [Show your Work - By Austin Kleon](https://1kevinson.com/show-your-work/)
-
-+ [The War Of Art - By Steven Pressfield](https://1kevinson.com/the-war-of-art/)
 
 </details>

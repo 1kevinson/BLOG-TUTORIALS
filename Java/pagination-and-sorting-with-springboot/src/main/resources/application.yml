@@ -1,7 +1,6 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    # Create the database 'tutos' manually
     url: jdbc:postgresql://localhost:5432/tutos
     username: tuto
     password: admingres
