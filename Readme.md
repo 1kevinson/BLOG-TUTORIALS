@@ -30,6 +30,8 @@ ___
 <details>
   <summary>Tutorials</summary>
 
++ [How to Clone a JavaScript Object Except One Key](https://1kevinson.com/how-to-clone-a-javascript-object-except-one-key/)
+
 + [How to Build Pagination and Sorting with Spring Boot and JPA](https://1kevinson.com/how-to-build-pagination-and-sorting-with-spring-boot-and-jpa/)
 
 + [Understand How Spring Boot Architecture is Designed](https://1kevinson.com/understand-how-spring-boot-architecture-is-designed/)
