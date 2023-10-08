@@ -20,9 +20,10 @@ ___
 <details>
   <summary>Career</summary>
   
++ [Want to become a Java developer? Read this](https://1kevinson.com/want-to-become-a-java-developer/)
+
 + [Write a Brag Document and Get Your Work Recognized](https://1kevinson.com/write-a-brag-document-and-get-your-work-recognized/)
 
-+ [Want to become a Java developer? Read this](https://1kevinson.com/want-to-become-a-java-developer/)
 
 </details>
 <br>
