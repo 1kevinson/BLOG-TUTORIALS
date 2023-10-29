@@ -19,7 +19,8 @@ ___
 
 <details>
   <summary>Career</summary>
-  
+  <br>
+
 + [Want to become a Java developer? Read this](https://1kevinson.com/want-to-become-a-java-developer/)
 
 + [Write a Brag Document and Get Your Work Recognized](https://1kevinson.com/write-a-brag-document-and-get-your-work-recognized/)
@@ -30,6 +31,21 @@ ___
 
 <details>
   <summary>Tutorials</summary>
+  <br>
+
++ [How to Fix the Host Key Verification Failed Git Clone Error](https://1kevinson.com/how-to-fix-the-host-key-verification-failed-git-clone-error/)
+
++ [2 Simple Solutions to fix the warning about ECDSA host key](https://1kevinson.com/2-simple-solutions-to-fix-the-warning-about-ecdsa-host-key/)
+
+
++ [How to Easily Solve the Redis NOAUTH Authentication Required](https://1kevinson.com/how-to-easily-solve-the-redis-noauth-authentication-required/)
+
+
++ [How to Declare Classes with Java](https://1kevinson.com/how-to-declare-classes-in-java/)
+
+
++ [How to Declare Variable with Java](https://1kevinson.com/how-to-declare-variable-with-java/)
+
 
 + [How to Clone a JavaScript Object Except One Key](https://1kevinson.com/how-to-clone-a-javascript-object-except-one-key/)
 
@@ -84,6 +100,7 @@ ___
 
 <details>
   <summary>Software Architecture</summary>
+  <br>
 
 + [Hexagonal Architecture - Implementing Port and Adapter with Java](https://1kevinson.com/how-to-implement-port-and-adapters-in-hexagonal-architecture-with-java/)
 
@@ -92,6 +109,7 @@ ___
 
 <details>
   <summary>Software Design</summary>
+  <br>
 
 + [SOLID Principles](https://1kevinson.com/solid-principles-timeless-wisdom-on-building-high-quality-software/)
 
@@ -104,6 +122,7 @@ ___
 
 <details>
   <summary>Testing</summary>
+  <br>
 
 + [Unit and Integration Testing Pagination and Sorting With JPA, JUnit and Testcontainers](https://1kevinson.com/unit-and-integration-testing-pagination-and-sorting-with-jpa-junit-and-testcontainers/)
 
@@ -117,12 +136,12 @@ ___
 
 + [How to write Integration Tests with Testcontainers Springboot and Docker](https://1kevinson.com/integration-testing-with-springboot-docker-and-tests-containers/)
 
-
 </details>
 <br>
 
 <details>
   <summary>Linux</summary>
+  <br>
 
 + [How to Find and Replace Text with Sed Command on Linux](https://1kevinson.com/how-to-find-and-replace-text-with-sed-command-on-linux/)
 
@@ -136,13 +155,23 @@ ___
 <br>
 
 <details>
-  <summary>DevOps</summary>
+  <summary>Snippets</summary>
+  <br>
+
++ [How to Ignore a File or a Folder with .gitignore](https://1kevinson.com/how-to-ignore-a-file-or-a-folder-with-gitignore/)
+
++ [HHow to Enter a Docker Container Shell](https://1kevinson.com/how-to-enter-a-docker-container-shell/)
+
++ [How to Run a Docker Container From a Dockerfile](https://1kevinson.com/how-to-run-a-docker-container-from-a-dockerfile/)
+
++ [The Easiest Way To Clone An Array With Javascript ES6](https://1kevinson.com/the-easiest-way-to-clone-an-array-with-javascript-es6/)
 
 </details>
 <br>
 
 <details>
-  <summary>Bookclub</summary>
+  <summary>Books Highlights</summary>
+  <br>
 
 + [Mastery - By Georges Leonard](https://1kevinson.com/mastery-book-highlights-george-leonard/)
 
