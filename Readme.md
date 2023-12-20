@@ -33,6 +33,12 @@ ___
   <summary>Tutorials</summary>
   <br>
 
++ [Discover 6 Great Reasons to Use SSH Key Authentication For Your Systems](https://1kevinson.com/discover-6-great-reasons-to-use-ssh-key-authentication-for-your-systems/)
+
++ [How To Generate And Pair An Ssh Key To Access Your VPS](https://1kevinson.com/how-to-generate-and-pair-an-ssh-key-to-access-your-vps/)
+
++ [4 Simple Ways to Remove Duplicates From a JavaScript Array](https://1kevinson.com/4-simple-ways-to-remove-duplicates-from-a-javascript-array/)
+
 + [How to Fix the Host Key Verification Failed Git Clone Error](https://1kevinson.com/how-to-fix-the-host-key-verification-failed-git-clone-error/)
 
 + [2 Simple Solutions to fix the warning about ECDSA host key](https://1kevinson.com/2-simple-solutions-to-fix-the-warning-about-ecdsa-host-key/)
@@ -158,9 +164,15 @@ ___
   <summary>Snippets</summary>
   <br>
 
++ [A step-by-step Guide for Copying Files Between Host and Docker Containers](https://1kevinson.com/copying-files-between-host-and-docker-containers-a-step-by-step-guide/)
+
++ [How to Easily Stop and Remove a Docker Container in One Command](https://1kevinson.com/how-to-easily-stop-and-remove-a-docker-container-in-one-command/)
+
++ [Get the Differences Between Two Arrays of Objects in JavaScript](https://1kevinson.com/get-the-differences-between-two-arrays-of-objects-in-javascript/)
+
 + [How to Ignore a File or a Folder with .gitignore](https://1kevinson.com/how-to-ignore-a-file-or-a-folder-with-gitignore/)
 
-+ [HHow to Enter a Docker Container Shell](https://1kevinson.com/how-to-enter-a-docker-container-shell/)
++ [How to Enter a Docker Container Shell](https://1kevinson.com/how-to-enter-a-docker-container-shell/)
 
 + [How to Run a Docker Container From a Dockerfile](https://1kevinson.com/how-to-run-a-docker-container-from-a-dockerfile/)
 
