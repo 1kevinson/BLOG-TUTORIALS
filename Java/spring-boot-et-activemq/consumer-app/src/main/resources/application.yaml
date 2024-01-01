@@ -1,4 +1,4 @@
-# change application port
+# consumer server port
 server:
   port: 8082
 
@@ -7,10 +7,10 @@ server:
 spring:
   activemq:
     broker-url: tcp://localhost:61616
-    username: test
-    password: test
+    username: admin
+    password: adminpass
     packages:
       trust-all: true
   artemis:
     embedded:
-      queues: queue-data
+      queues: async-data
