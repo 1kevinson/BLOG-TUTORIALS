@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.demo</groupId>
-	<artifactId>broker</artifactId>
+	<artifactId>producer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>broker</name>
+	<name>producer</name>
 	<description>Demo project for ActiveMQ</description>
 	<properties>
 		<java.version>11</java.version>
@@ -39,6 +39,8 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
