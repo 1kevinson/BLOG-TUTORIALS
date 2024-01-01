@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  artemis:
+    container_name: artemis
+    image: apache/activemq-artemis:latest-alpine
+    ports:
+      - "8161:8161"
+      - "61616:61616"
+    environment:
+      ARTEMIS_USER: admin
+      ARTEMIS_PASSWORD: adminpass
