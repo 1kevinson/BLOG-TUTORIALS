@@ -1,7 +1,7 @@
 package com.demo.broker.controller;
 
 import com.demo.broker.model.Message;
-import com.demo.broker.producer.Producer;
+import com.demo.broker.service.Producer;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
+
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/message")
@@ -17,7 +19,8 @@ public class PublisherController {
 
     private final Producer producer;
 
-    public ResponseEntity<String> publish(@RequestBody Message message) {
+    @PostMapping
+    public ResponseEntity<String> publish(@RequestBody @Valid Message message) {
         try {
             producer.send(message);
             return new ResponseEntity<>("Message Sent", HttpStatus.OK);

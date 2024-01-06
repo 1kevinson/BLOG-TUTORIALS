@@ -7,16 +7,16 @@ import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 
 import javax.jms.ConnectionFactory;
 
-@Configuration
 @EnableJms
+@Configuration
 public class JmsConfig {
 
     @Bean
     public DefaultJmsListenerContainerFactory jmsListenerContainerFactory(ConnectionFactory connectionFactory) {
-        var jmsListenerContainerFactory = new DefaultJmsListenerContainerFactory();
-        jmsListenerContainerFactory.setConnectionFactory(connectionFactory);
-        jmsListenerContainerFactory.setConcurrency("2-4");
-        return jmsListenerContainerFactory;
+        var jmsListenerFactory = new DefaultJmsListenerContainerFactory();
+        jmsListenerFactory.setConnectionFactory(connectionFactory);
+        jmsListenerFactory.setConcurrency("2-4");
+        return jmsListenerFactory;
     }
 
 }

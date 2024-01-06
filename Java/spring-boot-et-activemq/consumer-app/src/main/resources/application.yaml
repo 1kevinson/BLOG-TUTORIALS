@@ -1,16 +1,16 @@
-# consumer server port
+# CONSUMER SERVER PORT
 server:
   port: 8082
 
 
-# broker config
+# MESSAGE BROKER CONFIG
 spring:
   activemq:
     broker-url: tcp://localhost:61616
-    username: admin
+    user: admin
     password: adminpass
     packages:
       trust-all: true
   artemis:
     embedded:
-      queues: async-data
+      queues: messages
