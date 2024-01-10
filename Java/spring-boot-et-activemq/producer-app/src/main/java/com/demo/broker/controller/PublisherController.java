@@ -20,7 +20,7 @@ public class PublisherController {
     private final Producer producer;
 
     @PostMapping
-    public ResponseEntity<String> publish(@RequestBody @Valid Message message) {
+    public ResponseEntity<String> publish(@RequestBody Message message) {
         try {
             producer.send(message);
             return new ResponseEntity<>("Message Sent", HttpStatus.OK);

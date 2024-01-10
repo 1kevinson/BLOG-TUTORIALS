@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.jms.JmsException;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +28,7 @@ public class Producer {
             String jmsMessage = mapper.writeValueAsString(message);
             logger.info("Sending Message :: {}", jmsMessage);
             jmsTemplate.convertAndSend(artemisQueue, jmsMessage);
-        } catch (JsonProcessingException e) {
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }

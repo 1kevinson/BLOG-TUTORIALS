@@ -164,6 +164,8 @@ ___
   <summary>Snippets</summary>
   <br>
 
++ [How to Set Up a React Project](https://1kevinson.com/how-to-set-up-a-react-project/)
+
 + [A step-by-step Guide for Copying Files Between Host and Docker Containers](https://1kevinson.com/copying-files-between-host-and-docker-containers-a-step-by-step-guide/)
 
 + [How to Easily Stop and Remove a Docker Container in One Command](https://1kevinson.com/how-to-easily-stop-and-remove-a-docker-container-in-one-command/)
