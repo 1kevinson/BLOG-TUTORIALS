@@ -1,0 +1,65 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.demo:producer >--------------------------
+[INFO] Building producer 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.6.3:run (default-cli) > test-compile @ producer >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ producer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ producer ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ producer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/kevinkouomeu/Personal/Blog Tutorials/Java/spring-boot-et-activemq/producer-app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ producer ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.6.3:run (default-cli) < test-compile @ producer <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.6.3:run (default-cli) @ producer ---
+[INFO] Attaching agents: []
+13:43:18.358 [Thread-0] DEBUG org.springframework.boot.devtools.restart.classloader.RestartClassLoader - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2a274044
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.3)
+
+2024-01-06 13:43:18.476  INFO 70375 --- [  restartedMain] com.demo.broker.ProducerApplication      : Starting ProducerApplication using Java 21.0.1 on Kevins-MacBook-Pro.local with PID 70375 (/Users/kevinkouomeu/Personal/Blog Tutorials/Java/spring-boot-et-activemq/producer-app/target/classes started by kevinkouomeu in /Users/kevinkouomeu/Personal/Blog Tutorials/Java/spring-boot-et-activemq/producer-app)
+2024-01-06 13:43:18.476  INFO 70375 --- [  restartedMain] com.demo.broker.ProducerApplication      : No active profile set, falling back to default profiles: default
+2024-01-06 13:43:18.491  INFO 70375 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-06 13:43:18.491  INFO 70375 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-06 13:43:18.757  INFO 70375 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-01-06 13:43:18.760  INFO 70375 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-06 13:43:18.760  INFO 70375 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-01-06 13:43:18.775  INFO 70375 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-06 13:43:18.775  INFO 70375 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 284 ms
+2024-01-06 13:43:18.886  INFO 70375 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-06 13:43:18.893  INFO 70375 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-01-06 13:43:18.896  INFO 70375 --- [  restartedMain] com.demo.broker.ProducerApplication      : Started ProducerApplication in 0.534 seconds (JVM running for 0.662)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  09:16 min
+[INFO] Finished at: 2024-01-06T13:52:34+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.6.3:run (default-cli) on project producer: Application finished with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
