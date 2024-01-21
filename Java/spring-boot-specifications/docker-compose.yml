@@ -5,6 +5,7 @@ services:
       context: .
       dockerfile: spring.dockerfile
     container_name: jpa-specifications
+    platform: linux/amd64 # For Mac Apple/Silicon
     restart: unless-stopped
     ports:
       - '8000:8000'

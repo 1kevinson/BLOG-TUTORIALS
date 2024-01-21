@@ -1,4 +1,6 @@
-FROM openjdk:19-alpine
+FROM openjdk:17-alpine
+
+MAINTAINER 1kevinson.com
 
 RUN addgroup -S spring && adduser -S spring -G spring
 

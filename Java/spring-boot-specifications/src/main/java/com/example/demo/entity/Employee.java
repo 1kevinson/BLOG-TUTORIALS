@@ -1,5 +1,6 @@
 package com.example.demo.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import org.hibernate.annotations.UuidGenerator;
@@ -12,6 +13,7 @@ import java.math.BigDecimal;
 @Getter
 @Entity
 @Builder
+@AllArgsConstructor
 @Table(name = "employee")
 public class Employee extends BaseEntity {
 
