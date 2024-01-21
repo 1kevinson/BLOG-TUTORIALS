@@ -1,6 +1,6 @@
-docker stop spring-rest-api postgres-15 &&
+docker stop jpa-specifications postgres-demo &&
 
-docker rm spring-rest-api postgres-15 &&
+docker rm jpa-specifications postgres-demo &&
 
 ./mvnw clean package -DskipTests &&
 
