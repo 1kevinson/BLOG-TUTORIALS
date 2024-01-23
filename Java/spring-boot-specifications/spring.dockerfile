@@ -1,3 +1,4 @@
+# Generate jar file first -> ./mvnw clean package
 FROM openjdk:17-alpine
 
 MAINTAINER 1kevinson.com

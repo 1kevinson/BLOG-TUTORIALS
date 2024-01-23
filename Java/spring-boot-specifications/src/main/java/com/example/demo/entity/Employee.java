@@ -3,28 +3,25 @@ package com.example.demo.entity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-import org.hibernate.annotations.UuidGenerator;
-import org.hibernate.annotations.UuidGenerator.Style;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
+import java.util.UUID;
 
 @Getter
 @Entity
 @Builder
+@NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "employee")
 public class Employee extends BaseEntity {
 
-    public Employee() {
-    }
-
     @Id
     @GeneratedValue
     @Column(nullable = false)
-    @UuidGenerator(style = Style.TIME)
-    private long uuid;
+    private UUID uuid;
 
     @Column(name = "email", nullable = false)
     @NotNull(message = "The name cannot be null")
