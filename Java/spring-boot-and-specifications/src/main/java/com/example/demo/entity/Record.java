@@ -1,18 +1,19 @@
 package com.example.demo.entity;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.*;
+import java.util.UUID;
 
 @Getter
 @Setter
 @Entity
 @Builder
 @AllArgsConstructor
-@Table(name = "Employee")
+@Table(name = "employee")
 public class Record extends BaseEntity {
 
     public Record() {
@@ -21,8 +22,8 @@ public class Record extends BaseEntity {
 
     @Id
     @Column(nullable = false)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private long id;
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private UUID id;
 
     @Column(name = "description")
     private String description;
