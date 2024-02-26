@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.math.BigDecimal;
 import java.util.UUID;
 
 @Getter
@@ -25,6 +26,18 @@ public class Record extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column(name = "description")
-    private String description;
+    @Column(name = "fullname")
+    private String fullName;
+
+    @Column(name = "age")
+    private Integer age;
+
+    @Column(name = "address")
+    private String address;
+
+    @Column(name = "salary")
+    private BigDecimal salary;
+
+    @Column(name = "matricule")
+    private String matricule;
 }

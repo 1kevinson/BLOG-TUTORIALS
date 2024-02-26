@@ -47,6 +47,17 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>6.4.2.Final</version>
 		</dependency>
+		<dependency>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.tuxdude.logback.extensions</groupId>
+			<artifactId>logback-colorizer</artifactId>
+			<version>1.0.1</version>
+			<type>jar</type>
+		</dependency>
 	</dependencies>
 
 	<build>

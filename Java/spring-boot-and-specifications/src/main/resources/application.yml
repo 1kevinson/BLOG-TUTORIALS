@@ -11,8 +11,10 @@ spring:
 
 logging:
   level:
-    org.springframework: info
-    org.hibernate: info
+    org:
+      hibernate.orm.jdbc.bind : trace
+      springframework: info
+      hibernate: info
 
 server:
   port: 8000

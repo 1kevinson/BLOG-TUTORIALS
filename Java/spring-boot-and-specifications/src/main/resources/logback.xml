@@ -1,0 +1,15 @@
+<configuration debug="true">
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+    <!-- https://github.com/Tuxdude/logback-colorizer/blob/master/README.md -->
+    <property scope="context" name="COLORIZER_COLORS" value="boldred@white,yellow@black,green@,blue@,magenta@" />
+    <conversionRule conversionWord="colorize" converterClass="org.tuxdude.logback.extensions.LogColorizer" />
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{HH:mm:ss.SSS}] [%thread] %colorize(%-5level) %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
