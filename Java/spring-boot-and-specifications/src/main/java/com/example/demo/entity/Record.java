@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.math.BigDecimal;
 import java.util.UUID;
@@ -15,6 +16,7 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @Table(name = "employee")
+@EntityListeners(AuditingEntityListener.class)
 public class Record extends BaseEntity {
 
     public Record() {
