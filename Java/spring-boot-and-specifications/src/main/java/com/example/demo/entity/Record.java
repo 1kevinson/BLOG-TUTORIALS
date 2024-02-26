@@ -37,7 +37,4 @@ public class Record extends BaseEntity {
 
     @Column(name = "salary")
     private BigDecimal salary;
-
-    @Column(name = "matricule")
-    private String matricule;
 }
