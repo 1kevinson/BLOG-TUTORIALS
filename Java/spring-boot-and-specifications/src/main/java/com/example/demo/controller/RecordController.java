@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/employees")
 public class RecordController {
 
     private final RecordService service;
@@ -18,8 +18,8 @@ public class RecordController {
         this.service = service;
     }
 
-    @GetMapping()
-    public ResponseEntity<List<Record>> getAllProducts() {
-        return new ResponseEntity<>(service.findAll(), HttpStatus.OK);
+    @GetMapping
+    public ResponseEntity<List<Record>> getYoungEmployeeWithHighSalaries(@RequestParam(value = "age", required = false) Integer age) {
+        return new ResponseEntity<>(service.findAllYoungEmployeesWithHighSalaries(age), HttpStatus.OK);
     }
 }

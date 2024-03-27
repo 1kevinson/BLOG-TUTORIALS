@@ -6,17 +6,49 @@ import org.springframework.data.jpa.domain.Specification;
 
 import java.math.BigDecimal;
 
+import static java.util.Objects.nonNull;
+
 public class EmployeeSpecs {
 
-    public static Specification<Record> areHighSalary() {
-        return (root, query, builder) -> builder.greaterThan(
-                root.get(Record_.SALARY), BigDecimal.valueOf(80000)
-        );
+    private EmployeeSpecs() {
+        // Enforcing object construction through builder
     }
 
-    public static Specification<Record> areYoungWorkers() {
-        return (root, query, builder) -> builder.lessThan(
-                root.get(Record_.AGE), 27
-        );
+    public static class Builder {
+
+        private Specification<Record> havingHighSalaries;
+        private Specification<Record> areYoungWorkers;
+
+        public Builder() {
+            // Default implementation ignored
+        }
+
+        public Builder havingHighSalaries() {
+            this.havingHighSalaries = employeesHavingHighSalary();
+            return this;
+        }
+
+        public Builder areYoungWorkers(Integer age) {
+            if (nonNull(age)) this.areYoungWorkers = employeeAreYoungWorkers(age);
+            return this;
+        }
+
+        public Specification<Record> build() {
+            return Specification.where(this.areYoungWorkers)
+                    .and(this.havingHighSalaries);
+        }
+
+        private static Specification<Record> employeesHavingHighSalary() {
+            return (root, query, builder) -> builder.greaterThan(
+                    root.get(Record_.SALARY), BigDecimal.valueOf(65000)
+            );
+        }
+
+        private static Specification<Record> employeeAreYoungWorkers(Integer age) {
+            return (root, query, builder) -> builder.lessThan(
+                    root.get(Record_.AGE), age
+            );
+        }
     }
+
 }

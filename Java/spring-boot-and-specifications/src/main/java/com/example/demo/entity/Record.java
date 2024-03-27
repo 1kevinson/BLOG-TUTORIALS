@@ -1,10 +1,7 @@
 package com.example.demo.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.math.BigDecimal;
@@ -14,6 +11,7 @@ import java.util.UUID;
 @Setter
 @Entity
 @Builder
+@ToString
 @AllArgsConstructor
 @Table(name = "employee")
 @EntityListeners(AuditingEntityListener.class)

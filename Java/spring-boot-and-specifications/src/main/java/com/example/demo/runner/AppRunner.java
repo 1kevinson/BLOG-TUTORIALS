@@ -22,7 +22,7 @@ public class AppRunner implements CommandLineRunner {
     @Override
     public void run(String... args) {
         int numberOfRecords = 30;
-        final Faker faker = new Faker(Locale.FRANCE);
+        final Faker faker = new Faker(Locale.UK);
         final List<Record> employees = new ArrayList<>();
 
         while (numberOfRecords > 0) {
