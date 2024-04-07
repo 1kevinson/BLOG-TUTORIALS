@@ -69,15 +69,11 @@ ___
 
 + [2 Simple Solutions to fix the warning about ECDSA host key](https://1kevinson.com/2-simple-solutions-to-fix-the-warning-about-ecdsa-host-key/)
 
-
 + [How to Easily Solve the Redis NOAUTH Authentication Required](https://1kevinson.com/how-to-easily-solve-the-redis-noauth-authentication-required/)
-
 
 + [How to Declare Classes with Java](https://1kevinson.com/how-to-declare-classes-in-java/)
 
-
 + [How to Declare Variable with Java](https://1kevinson.com/how-to-declare-variable-with-java/)
-
 
 + [How to Clone a JavaScript Object Except One Key](https://1kevinson.com/how-to-clone-a-javascript-object-except-one-key/)
 
@@ -197,7 +193,6 @@ ___
 + [Resolving java.lang.NoClassDefFoundError in Java 11+ for javax.xml.bind.JAXBException](https://1kevinson.com/resolving-java-lang-noclassdeffounderror-in-java-11-for-javax-xml-bind-jaxbexception/)
 
 + [How to Run a Function on All Elements of an Object in JavaScript](https://1kevinson.com/how-to-run-a-function-on-all-elements-of-an-object-in-javascript/)
-
 
 + [Why You Need a No-args Constructor in Your JPA Entity](https://1kevinson.com/why-you-need-a-no-args-constructor-in-your-jpa-entity/)
 
