@@ -21,6 +21,10 @@ ___
   <summary>Career</summary>
   <br>
 
++ [Engage, Explore, Explain, Elaborate, Evaluate: Mastering the 5E Learning Model](https://1kevinson.com/engage-explore-explain-elaborate-evaluate-mastering-the-5e-learning-model/)
+
++ [This 1 Technique Will Change Your Learning Experience — The SQ3R Method](https://1kevinson.com/this-1-technique-will-change-your-learning-experience-the-sq3r-method/)
+
 + [Want to become a Java developer? Read this](https://1kevinson.com/want-to-become-a-java-developer/)
 
 + [Write a Brag Document and Get Your Work Recognized](https://1kevinson.com/write-a-brag-document-and-get-your-work-recognized/)
@@ -32,6 +36,28 @@ ___
 <details>
   <summary>Tutorials</summary>
   <br>
+
++ [How To Run A Node.js App In Docker Including Environment Variables](https://1kevinson.com/how-to-run-a-node-js-app-in-docker-including-environment-variables/)   
+
++ [How to Use Spring Data JPA Specifications with SQL](https://1kevinson.com/how-to-use-spring-data-jpa-specifications-with-sql/)   
+
++ [How to Convert Java POJO to JSON Using Jackson Library](https://1kevinson.com/how-to-convert-java-pojo-to-json-using-jackson-library/)   
+
++ [Why Using Private Constructors with Java in Object-Oriented Programming](https://1kevinson.com/why-using-private-constructors-in-object-oriented-programming/)   
+
++ [How to Read Environment Variables from Node.js](https://1kevinson.com/how-to-read-environment-variables-from-node-js/)   
+
++ [How to Easily Install Your Self-hosted Ghost Blog with Docker on Linux Server](https://1kevinson.com/how-to-easily-install-your-self-hosted-ghost-blog-on-linux-server/)   
+
++ [How to Send a POST Request with Curl](https://1kevinson.com/how-to-send-a-post-request-with-curl/)  
+
++ [https://1kevinson.com/java-8-predicates-the-definitive-guide/](https://1kevinson.com/java-8-predicates-the-definitive-guide/)  
+
++ [A Practical Guide to Using ActiveMQ JMS with Spring Boot](https://1kevinson.com/a-practical-guide-to-using-activemq-jms-with-spring-boot/)
+
++ [Demystifying the Classpath in Spring Boot: Your Guide to Class Loading](https://1kevinson.com/demystifying-the-classpath-in-spring-boot/)
+
++ [React Component Essentials : Beginner Guide](https://1kevinson.com/react-component-essentials-beginner-guide/)
 
 + [Discover 6 Great Reasons to Use SSH Key Authentication For Your Systems](https://1kevinson.com/discover-6-great-reasons-to-use-ssh-key-authentication-for-your-systems/)
 
@@ -117,6 +143,10 @@ ___
   <summary>Software Design</summary>
   <br>
 
++ [Use Static Factory Method Instead of Constructors](https://1kevinson.com/use-static-factory-method-instead-of-constructors/)
+
++ [Instance-Controlled Classes | Efficiently Manage your Objects](https://1kevinson.com/instance-controlled-classes-oop/)
+
 + [SOLID Principles](https://1kevinson.com/solid-principles-timeless-wisdom-on-building-high-quality-software/)
 
 + [4 pillars of Object-Oriented Programming](https://1kevinson.com/4-pillars-of-object-oriented-programming/)
@@ -163,6 +193,23 @@ ___
 <details>
   <summary>Snippets</summary>
   <br>
+
++ [Resolving java.lang.NoClassDefFoundError in Java 11+ for javax.xml.bind.JAXBException](https://1kevinson.com/resolving-java-lang-noclassdeffounderror-in-java-11-for-javax-xml-bind-jaxbexception/)
+
++ [How to Run a Function on All Elements of an Object in JavaScript](https://1kevinson.com/how-to-run-a-function-on-all-elements-of-an-object-in-javascript/)
+
+
++ [Why You Need a No-args Constructor in Your JPA Entity](https://1kevinson.com/why-you-need-a-no-args-constructor-in-your-jpa-entity/)
+
++ [How to Hide the Path Next to your Project in IntelliJ](https://1kevinson.com/how-to-hide-the-path-next-to-your-project-in-intellij/)
+
++ [How to Run a Spring Boot App with Maven Command](https://1kevinson.com/how-to-run-a-spring-boot-app-with-maven-command/)
+
++ [How to Change the Project Name in Docker Compose](https://1kevinson.com/how-to-change-the-project-name-in-docker-compose/)
+
++ [Troubleshooting "NoSuchFieldError: JCImport does not have member field JCTree qualid" in Spring Boot project after upgrading to JDK 21](https://1kevinson.com/nosuchfielderror-jcimport-does-not-have-member-field-jctree-qualid/)
+
++ [How to Easily Read JSON File as String in Java Spring Boot](https://1kevinson.com/how-to-easily-read-json-file-as-string-in-java-spring-boot/)
 
 + [How to Set Up a React Project](https://1kevinson.com/how-to-set-up-a-react-project/)
 
