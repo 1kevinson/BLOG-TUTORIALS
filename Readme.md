@@ -37,6 +37,8 @@ ___
   <summary>Tutorials</summary>
   <br>
 
++ [7 Deadly Mistakes You Make on Your SQL Queries and How to Fix them](https://1kevinson.com/7-deadly-mistakes-you-make-on-your-sql-queries-and-how-to-fix-them/) 
+
 + [How To Run A Node.js App In Docker Including Environment Variables](https://1kevinson.com/how-to-run-a-node-js-app-in-docker-including-environment-variables/)   
 
 + [How to Use Spring Data JPA Specifications with SQL](https://1kevinson.com/how-to-use-spring-data-jpa-specifications-with-sql/)   
