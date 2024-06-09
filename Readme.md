@@ -37,6 +37,18 @@ ___
   <summary>Tutorials</summary>
   <br>
 
++ [3 Techniques to Insert JavaScript into your HTML](https://1kevinson.com/how-to-insert-javascript-into-html/) 
+
++ [4 Reasons Why You Should Consider Using Arrays Instead of ArrayList](https://1kevinson.com/4-reasons-why-you-should-consider-using-arrays-instead-of-arraylist/) 
+
++ [The Only Guide You Need To Work With Java Lists](https://1kevinson.com/essential-guide-to-work-with-java-lists/)  
+
++ [Understand the difference between Left Join and Left Outer Join](https://1kevinson.com/understand-the-difference-between-left-join-and-left-outer-join/) 
+
++ [Exploring the Subtle Differences Between SQL JOIN and INNER JOIN](https://1kevinson.com/differences-between-sql-join-and-inner-join/) 
+
++ [One Simple Technique to Handle Null Parameters for Your JPA Query](https://1kevinson.com/one-simple-technique-to-handle-null-parameters-for-your-jpa-query/) 
+
 + [7 Deadly Mistakes You Make on Your SQL Queries and How to Fix them](https://1kevinson.com/7-deadly-mistakes-you-make-on-your-sql-queries-and-how-to-fix-them/) 
 
 + [How To Run A Node.js App In Docker Including Environment Variables](https://1kevinson.com/how-to-run-a-node-js-app-in-docker-including-environment-variables/)   
@@ -191,6 +203,12 @@ ___
 <details>
   <summary>Snippets</summary>
   <br>
+
++ [What is a RFC](https://1kevinson.com/what-is-rfc/)
+
++ [Uncaught TypeError: Failed to resolve module specifier in Vanilla Javascript](https://1kevinson.com/uncaught-typeerror-failed-to-resolve-module-specifier-in-vanilla-javascript/)  
+
++ [How to Use Crypto Interface to Easily Generate UUID](https://1kevinson.com/how-to-use-crypto-interface-to-easily-generate-uuid/)
 
 + [Resolving java.lang.NoClassDefFoundError in Java 11+ for javax.xml.bind.JAXBException](https://1kevinson.com/resolving-java-lang-noclassdeffounderror-in-java-11-for-javax-xml-bind-jaxbexception/)
 
