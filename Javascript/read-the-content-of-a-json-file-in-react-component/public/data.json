@@ -1,0 +1,8 @@
+[
+  { "category": "Fruits", "price": "1", "name": "Apple" },
+  { "category": "Fruits", "price": "1", "name": "Dragon fruit" },
+  { "category": "Fruits", "price": "2",  "name": "Passion fruit" },
+  { "category": "Vegetables", "price": "2", "name": "Spinach" },
+  { "category": "Vegetables", "price": "4", "name": "Pumpkin" },
+  { "category": "Vegetables", "price": "1", "name": "Peas" }
+]
