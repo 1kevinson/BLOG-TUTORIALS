@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      {/*  Demo code */}
+      {/*  use the JSON data here */}
     </div>
   );
 }
