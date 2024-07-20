@@ -33,3 +33,15 @@ h
 8src/test/java/com/example/demo/DemoApplicationTests.java,3/a/3a91846c75497f47092961a0e4c38ac82a456e51
 Å
 Q.idea/sonarlint/securityhotspotstore/7/1/7171df7c024808a26040ea210fc78aec82a83023,8/7/87b8b0c59908ed85805e3772d7f8d35cb7a2dfc3
+k
+;src/test/java/com/example/demo/AbstractIntegrationTest.java,3/5/3586ed4906a4762b8cdb2ff8a2f5a4eedc9599fb
+c
+3src/test/java/com/example/demo/ProjectionsTest.java,f/b/fb38e4d3477e80f054f0fae18f3db1fcb552383c
+_
+/src/main/java/com/example/demo/entity/User.java,0/9/09b6f0f3c21b231eaae64a4e00055eae4b91a5d1
+m
+=src/main/java/com/example/demo/repository/UserRepository.java,d/3/d3988bae5a67c550f3f8baf357a9c936160c7052
+h
+8src/main/java/com/example/demo/projections/UserView.java,8/4/8413128d81ba5a89c64e2103a59cdbaaa96a8f6a
+\
+,.idea/inspectionProfiles/Project_Default.xml,4/9/496a238a6afa168dbaf6efd37bb459331589579c
