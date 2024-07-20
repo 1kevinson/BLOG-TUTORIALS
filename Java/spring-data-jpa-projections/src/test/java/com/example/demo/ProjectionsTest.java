@@ -31,7 +31,7 @@ class ProjectionsTest extends AbstractIntegrationTest{
     }
 
     @Test
-    void testFetchUsersByEmailServer() {
+    void testFetchUserByEmailServer() {
         int numberOfUsers = 0;
         var users = new ArrayList<User>();
 
@@ -52,6 +52,7 @@ class ProjectionsTest extends AbstractIntegrationTest{
         userRepository.saveAll(users);
 
         List<UserView> userViews = userRepository.fetchUsersByEmailServer("gmail");
+
         assertThat(userViews).hasSize(1);
         assertThat(userViews.get(0).getUsername()).isEqualTo("1kevinson");
     }
