@@ -13,9 +13,7 @@ import javax.persistence.*;
 @Table(name = "users")
 public class User {
 
-    public User() {
-        // No-args constructor for Hibernate Reflection
-    }
+    public User() {}
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

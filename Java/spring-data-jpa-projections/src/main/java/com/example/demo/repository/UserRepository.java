@@ -1,6 +1,7 @@
 package com.example.demo.repository;
 
 import com.example.demo.entity.User;
+import com.example.demo.projections.UserDto;
 import com.example.demo.projections.UserView;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -16,4 +17,10 @@ public interface UserRepository extends JpaRepository<User, Long> {
                    "WHERE u.email LIKE ('%' || :emailServer || '.com%') ",
            nativeQuery = true)
     List<UserView> fetchUsersByEmailServer(@Param("emailServer") String emailServer);
+
+    UserView findByEmailLike(String email);
+
+    UserDto findByUsername(String username);
+
+    <T> T findByLastName(String lastName, Class<T> type);
 }

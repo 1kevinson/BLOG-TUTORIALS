@@ -45,3 +45,7 @@ h
 8src/main/java/com/example/demo/projections/UserView.java,8/4/8413128d81ba5a89c64e2103a59cdbaaa96a8f6a
 \
 ,.idea/inspectionProfiles/Project_Default.xml,4/9/496a238a6afa168dbaf6efd37bb459331589579c
+m
+=src/main/java/com/example/demo/controller/UserController.java,3/3/332a6b490085305950ceaa3a85fe07c033051a9d
+g
+7src/main/java/com/example/demo/projections/UserDto.java,b/3/b30686c7f817fb01655d8b795dcc39c56c110dd6
