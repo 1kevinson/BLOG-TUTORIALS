@@ -1,10 +1,10 @@
-package com._kevinson.jwt_tuto;
+package com.kevinson.auth_jwt_api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JwtTutorialApplicationTests {
+class AuthJwtApiApplicationTests {
 
 	@Test
 	void contextLoads() {
