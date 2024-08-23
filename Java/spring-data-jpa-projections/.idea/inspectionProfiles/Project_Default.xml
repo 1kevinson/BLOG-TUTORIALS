@@ -14,8 +14,8 @@
       <option name="isIgnoringEnabled" value="true" />
       <option name="ignoredModules">
         <list>
-          <option value="demo" />
-          <option value="demo" />
+          <option value="jpa-projections" />
+          <option value="jpa-projections" />
         </list>
       </option>
       <option name="ignoredPackages">
@@ -28,6 +28,7 @@
         <list>
           <option value="Other" />
           <option value="Not exploitable" />
+          <option value="In progress" />
         </list>
       </option>
     </inspection_tool>

@@ -1,0 +1,18 @@
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: mysql.dockerfile
+    image: "postgres-tutorials"
+    container_name: ${MYSQL_CONTAINER_NAME}
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+    volumes:
+      - mysqldata:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    restart: unless-stopped
+volumes:
+    mysqldata:
+      external: true
