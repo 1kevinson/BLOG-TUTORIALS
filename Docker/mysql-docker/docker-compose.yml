@@ -1,9 +1,9 @@
 services:
-  postgres:
+  mysql:
     build:
       context: .
       dockerfile: mysql.dockerfile
-    image: "postgres-tutorials"
+    image: "mysql-demo"
     container_name: ${MYSQL_CONTAINER_NAME}
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}

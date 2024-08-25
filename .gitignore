@@ -1,8 +1,8 @@
-/*/idea
-/*/.idea
+**/idea
+**/.idea
 .vscode
 Java/*/target
-/*/.DS_Store
+**/.DS_Store
 node_modules
 Java/.DS_Store
 .DS_Store
