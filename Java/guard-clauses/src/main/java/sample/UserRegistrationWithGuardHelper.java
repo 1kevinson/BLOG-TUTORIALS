@@ -3,8 +3,6 @@ package sample;
 import org.apache.commons.lang3.exception.ContextedException;
 import sample.helper.UserGuard;
 
-import java.security.Guard;
-
 public class UserRegistrationWithGuardHelper {
 
     public String registerUser(String username, String password, String email) throws ContextedException {
