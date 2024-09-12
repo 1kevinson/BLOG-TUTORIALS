@@ -18,9 +18,7 @@ class Distance {
     }
 
     public Distance toKilometer() {
-        this.value *= 1000;
-        this.unit = "kilometer";
-        return this;
+        return new Distance(this.value * 1000, "kilometer");
     }
 
 }
