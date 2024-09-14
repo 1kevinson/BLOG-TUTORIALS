@@ -1,8 +1,8 @@
 package com.example.a_one_indentation_level;
 
-public class Board {
+public class Grid {
 
-    public String displayBoard(char[][][] data) {
+    public String displayGrid(char[][][] data) {
         StringBuilder buffer = new StringBuilder();
 
         // 0
