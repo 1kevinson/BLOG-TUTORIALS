@@ -16,10 +16,10 @@ class Department {
     }
 }
 
-class Practice {
+class Service {
 
     public String getEmployeeManager() {
-        EmployeeValid employeeValid = new EmployeeValid();
-        return employeeValid.getDepartment().getManager();
+        Employee employee = new Employee();
+        return employee.getDepartment().getManager();
     }
 }

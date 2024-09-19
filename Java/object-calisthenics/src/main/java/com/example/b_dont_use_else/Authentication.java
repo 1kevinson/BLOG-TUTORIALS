@@ -8,12 +8,12 @@ public class Authentication {
         if (userRepository.isValid(username, password)) {
             redirect("homepage");
         } else {
-            addFlash("errorCode", "Bad credentials");
+            throwException("errorCode", "Bad credentials");
             redirect("loginRoute");
         }
     }
 
-    void addFlash(String key, String value) {}
+    void throwException(String key, String value) {}
     void redirect(String url) {}
 }
 

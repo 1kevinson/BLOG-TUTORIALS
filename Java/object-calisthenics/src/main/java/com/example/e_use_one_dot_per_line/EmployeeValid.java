@@ -20,7 +20,7 @@ class DepartmentValid {
     }
 }
 
-class PracticeValid {
+class ServiceValid {
 
     public String getEmployeeManager() {
         EmployeeValid employeeValid = new EmployeeValid();
