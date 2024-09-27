@@ -1,4 +1,4 @@
-package com.example.f_no_getter_and_no_setter;
+package com.example.g_no_getter_and_no_setter;
 
 import java.math.BigDecimal;
 
