@@ -37,6 +37,24 @@ ___
   <summary>Tutorials</summary>
   <br>
 
++ [The 50/72 Rule of Git Message](https://1kevinson.com/the-50-72-rule-of-git-message/)
+
++ [How to Create a MySQL Database in Docker Using Command and Docker Compose](https://1kevinson.com/how-to-create-a-mysql-database-in-docker-using-command-and-docker-compose/)
+
++ [How to Improve the Clarity of Your Docker Command Using Line Breaks](https://1kevinson.com/how-to-improve-the-clarity-of-your-docker-command-using-line-breaks/)
+
++ [Best Practices for Optimizing Your Java Code with Static Blocks](https://1kevinson.com/best-practices-for-optimizing-your-java-code-with-static-blocks/)
+
++ [Use Spring Data JPA Projections to Optimize Your Database Queries](https://1kevinson.com/use-spring-data-jpa-projections-to-optimize-your-database-queries/)
+
++ [How to Read the Content of a JSON File in Your React Component](https://1kevinson.com/how-to-read-the-content-of-a-json-file-in-your-react-component/)
+
++ [Understand ACID Properties in DBMS with PostgreSQL Query Examples](https://1kevinson.com/understand-acid-properties-in-dbms-with-postgresql-query-examples/)
+
++ [5 Hidden Reasons Why Your React App Print console.log Many Times](https://1kevinson.com/5-hidden-reasons-why-your-react-app-print-console-log-many-times/)
+
++ [Resolving Node.js SSL Error → error:0308010C:digital envelope routines::unsupported](https://1kevinson.com/error-0308010c-digital-envelope-routines-unsupported/)
+
 + [3 Techniques to Insert JavaScript into your HTML](https://1kevinson.com/how-to-insert-javascript-into-html/) 
 
 + [4 Reasons Why You Should Consider Using Arrays Instead of ArrayList](https://1kevinson.com/4-reasons-why-you-should-consider-using-arrays-instead-of-arraylist/) 
@@ -153,6 +171,16 @@ ___
   <summary>Software Design</summary>
   <br>
 
++ [Object Calisthenics the Practical Guide with Java](https://1kevinson.com/object-calisthenics-with-java/)
+
++ [First Class Collection with Java](https://1kevinson.com/first-class-collection-in-software-design/)
+
++ [How to Escape Nested Conditionals in Your Function Using the Guard clause](https://1kevinson.com/how-to-escape-nested-conditionals-in-your-function-using-the-guard-clause/)
+
++ [Avoid Using Too Many Constructors And Improve Your Code Clarity With Builder Pattern](https://1kevinson.com/avoid-using-too-much-constructors-and-improve-your-code-clarity-with-builder-pattern/)
+
++ [Make Your Code More Readable and Maintainable With the SLA Principle](https://1kevinson.com/single-level-of-abstraction-principle-slap/)
+
 + [Use Static Factory Method Instead of Constructors](https://1kevinson.com/use-static-factory-method-instead-of-constructors/)
 
 + [Instance-Controlled Classes | Efficiently Manage your Objects](https://1kevinson.com/instance-controlled-classes-oop/)
@@ -169,6 +197,8 @@ ___
 <details>
   <summary>Testing</summary>
   <br>
+
++ [Understanding How Jest Test Methods Works to Write Better Tests](https://1kevinson.com/understanding-how-jest-test-methods-works-to-write-better-tests/)
 
 + [Unit and Integration Testing Pagination and Sorting With JPA, JUnit and Testcontainers](https://1kevinson.com/unit-and-integration-testing-pagination-and-sorting-with-jpa-junit-and-testcontainers/)
 
@@ -203,6 +233,12 @@ ___
 <details>
   <summary>Snippets</summary>
   <br>
+
++ [How to Hard Reset Your Git Repository to 10 Minutes Ago](https://1kevinson.com/how-to-hard-reset-your-git-repository-to-10-minutes-ago/)
+
++ [How to Easily Generate a Java Project Using Maven Command](https://1kevinson.com/how-to-easily-generate-a-java-project-using-maven-command/)
+
++ [How to Remove Tracked Level 2 .idea Subfolders in Your Git Repository](https://1kevinson.com/how-to-remove-tracked-level-2-idea-subfolders-in-your-git-repository/)
 
 + [What is a RFC](https://1kevinson.com/what-is-rfc/)
 
